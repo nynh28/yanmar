@@ -1,0 +1,33 @@
+
+@media (min-width: 1200px) {
+  .text-lg-right {
+    text-align: right;
+  }
+  .text-md-right {
+    text-align: right;
+  }
+}
+@media (min-width: 992px) {
+  .text-lg-right {
+    text-align: left;
+  }
+  .text-md-right {
+    text-align: right;
+  }
+}
+@media (max-width: 768px) {
+  .text-lg-right {
+    text-align: left;
+  }
+  .text-md-right {
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .text-lg-right {
+    text-align: left;
+  }
+  .text-md-right {
+    text-align: left;
+  }
+}

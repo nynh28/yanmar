@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/js/plugins/gritter/images/gritter-light.png
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\js\plugins\gritter\images\gritter-light.png
+Content Type: image/png

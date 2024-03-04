@@ -1,0 +1,21 @@
+#tracking-history-map{
+  width: 100%;
+  height: calc(100vh - 55px);
+}
+.large-chart #tracking-history-map{
+  /* --height: calc(100vh - 55px);
+  height: calc(var(--height) * (5/10)); */
+  display: none;
+}
+.middle-chart #tracking-history-map{
+  --height: calc(100vh - 55px);
+  height: calc(var(--height) * (5/10));
+}
+.small-chart #tracking-history-map{
+  --height: calc(100vh - 55px);
+  height: calc(var(--height) * (6/10));
+}
+/* .small-chart #tracking-history-map{
+  --height: calc(100vh - 55px);
+  height: calc(var(--height) * (7/10));
+} */

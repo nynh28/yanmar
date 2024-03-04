@@ -1,0 +1,117 @@
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+    }
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.search-message-box-realtime{
+  padding-left: 28px ;
+  border-radius: 4px !important ;
+  /* height: 28px; */
+  font-size: 16;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  background-color: '#F9F9F9';
+  /* margin-left: 1px; */
+}
+
+.box-overlay-panel-realtime{
+  /* 200 */
+  position: absolute;
+  z-index: 1;
+  min-height: 500px;
+  /* --heightA: calc(100vh - 261px);
+  --heightB: calc(var(--heightA) / 1.66);
+  --heightC: calc(var(--heightB) - 30px );
+  height: var(--heightC); */
+  /* height: 500px; */
+  height: calc(100vh - 291px);
+  top: 15px;
+  right: 0px;
+  flex-direction: row;
+  display: flex;
+  /* width: calc(35% + 25px); */
+  /* width: 35%; */
+  /* min-width: 480px; */
+  /* max-height: 280px; */
+  z-index: 2;
+   /* box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px; */
+}
+.detail-overlay-realtime{
+  min-width: 480px;
+  --widthA: calc(100vw - 51px);
+  width:  calc(var(--widthA) / 3.33);
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+  height: fit-content;
+}
+
+.dashbord-scrollbar {
+  position: relative;
+  /* --heightA: calc(100vh - 61px);
+  --heightB: calc(var(--heightA) / 1.66);
+  --heightC: calc(var(--heightB) - 230px);
+  height: var(--heightC); */
+  max-height: 90vh;
+  /* min-height: 295px; */
+}
+
+.list-vehicles{
+  min-height: 400px;
+  height: calc(100vh - 385px);
+}
+
+
+
+
+
+.table-overlay table,  .table-overlay thead, .table-overlay th, .table-overlay td {
+  /* border: 0px solid black ; */
+  border-left: 0px solid black !important;
+  border-right: 0px solid black !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashbord-scrollbar.scroll{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.dashbord-scrollbar.scroll::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+    position: relative;
+}
+
+/* Track */
+.dashbord-scrollbar.scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.dashbord-scrollbar.scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.dashbord-scrollbar.scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

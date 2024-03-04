@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\js\plugins\jvectormap\jquery-jvectormap-world-mill-en.js
+Content Type: application/javascript

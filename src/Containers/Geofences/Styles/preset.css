@@ -1,0 +1,61 @@
+  .image-zoom:hover {
+    -ms-transform: scale(1.6); /* IE 9 */
+    -webkit-transform: scale(1.6); /* Safari 3-8 */
+    transform: scale(1.6); 
+  }
+
+  .image-zoom-grid:hover {
+    -ms-transform: scale(1.6); /* IE 9 */
+    -webkit-transform: scale(1.6); /* Safari 3-8 */
+    transform: scale(1.6); 
+  }
+
+  .custom-layout{
+    text-align: center;
+  }
+ 
+
+  .flex-container-custom {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .flex-container-custom > div {
+    line-height: 40px;
+  }
+
+    .twitter-picker {
+    width: 82%!important; 
+    border: 0px solid rgba(0, 0, 0, 0.25) !important; 
+    box-shadow: rgb(255 255 255 / 25%) 0px 1px 4px !important;       
+    border-radius: 4px!important; 
+    position: relative!important; 
+  }  
+
+  .require{
+    color: red;
+  }
+
+  .icon-shape{
+    cursor: pointer;
+    padding:  10px;
+  }
+
+  .icon-sub{
+    cursor: pointer;
+    padding:  4px;
+  }
+  
+  .scale-box {
+    zoom: 0.8;
+  }
+
+  .scale-input {
+    zoom: 0.9;
+  }
+
+
+  .twitter-picker span div {
+    border : 1px solid !important;
+  }

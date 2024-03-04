@@ -1,0 +1,57 @@
+.idling-action {
+  background: #FFE600 !important;
+  color:#fff !important;
+  border-color: #FFE600 !important;
+}
+
+.drive-action {
+    background: #5CE648 !important;
+    color: #fff !important;
+    border-color: #5CE648 !important;
+}
+
+.park-action {
+  background: #6f42c1 !important;
+  color: #fff !important;
+  border-color: #6f42c1 !important;
+}
+
+.overspeed-action {
+  background: #F86C6B !important;
+  color: #fff !important;
+  border-color: #F86C6B !important;
+}
+
+.table-print table > thead{
+  background: rgb(197, 197, 197) !important;
+  border-top: 1px rgb(99, 99, 99) solid;
+  border-bottom: 1px rgb(99, 99, 99) solid;
+}
+.table-print table > thead > tr > th{
+  padding: 10px;
+  border: 0px red solid;
+  font-size: small;
+}
+.table-print table > tbody > tr > td{
+  padding: 7px 10px 0px;
+  border: 0px red solid;
+  font-size: small;
+}
+
+.testestest{
+  text-align: right;
+  /* background: rgb(112, 84, 238) !important; */
+}
+
+
+@page {
+  size: A4;
+  margin: 5mm;
+}
+@media print {
+  html, body {
+      width: 210mm;
+      height: 297mm;
+  }
+
+}

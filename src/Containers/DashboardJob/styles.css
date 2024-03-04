@@ -1,0 +1,99 @@
+.progress{
+    margin-bottom: 0px;
+}
+
+
+
+.progress-bar.bg-green{
+    background-color:#57DF4E
+}
+.progress-bar.bg-green:hover {
+    border: 1px dashed rgb(13, 192, 0);
+    /* background-clip: border-box;   */
+    background-image: 'inear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent)';
+    background-size: 1rem 1rem;  
+}
+
+.progress-bar.bg-yellow{
+    background-color:#FFCC00
+}
+.progress-bar.bg-yellow:hover {
+    border: 1px dashed rgb(195, 156, 0);
+    background-clip: border-box;  
+  }
+
+
+.progress-bar.bg-gray{
+    background-color:#ADADB2
+}
+.progress-bar.bg-gray:hover {
+    border: 1px dashed rgb(97, 97, 97);
+    background-clip: border-box;  
+  }
+
+
+.progress-bar.bg-red{
+    background-color:#FF3B30
+}
+.progress-bar.bg-red:hover {
+    border: 1px dashed rgb(139, 0, 0);
+    background-clip: border-box;  
+  }
+
+
+.progress-bar.bg-purple{
+    background-color:#5856D6
+}
+.progress-bar.bg-purple:hover {
+    border: 1px dashed rgb(210, 100, 253);
+    background-clip: border-box;  
+  }
+
+
+div.scroll-tb {
+    width: 100%;
+    height: 243px;
+    overflow: auto;
+}
+   
+
+/* TABLES */
+.table-organization {
+    border-style: hidden;
+}
+
+.table-organization th {
+    border: #FFF ;
+}
+
+.table-organization td {
+    border: #FFF ;
+}
+
+.table-organization th:not(:nth-child(1))
+{
+  text-align: center;
+}
+
+.table-organization td:not(:nth-child(1))
+{
+  text-align: center;
+}
+
+.table-organization > thead > tr > th,
+.table-organization > thead > tr > th,
+.table-organization > tbody > tr > th,
+.table-organization > tfoot > tr > th,
+.table-organization > thead > tr > td,
+.table-organization > tbody > tr > td,
+.table-organization > thead > tr > th,
+.table-organization > tbody > tr > th,
+.table-organization > tfoot > tr > th,
+.table-organization > thead > tr > td,
+.table-organization > tbody > tr > td,
+.table-organization > tfoot > tr > td {
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: middle;
+  border-left: hidden;
+}

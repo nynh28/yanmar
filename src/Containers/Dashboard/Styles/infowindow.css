@@ -1,0 +1,15 @@
+#ic_history{
+  border:1px solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#ffffff;
+  padding: 1.5px 4.6px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+#ic_history:hover, #ic_history:focus{
+  background-color: #c8c8c8;
+  color: rgb(65, 65, 65);
+  border-color: rgb(167, 167, 167);
+  transition: 0.3s;
+}

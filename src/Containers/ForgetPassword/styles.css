@@ -1,0 +1,18 @@
+.box-forgotpassword {
+  position: absolute;
+  flex-direction: column;
+  z-index: 500;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  margin-left: 6%;
+}
+
+.btn-resend-password:hover {
+  background-color: rgb(216 216 216) !important;
+}
+
+.btn-forgot-submit:hover {
+  background-color: brown !important;
+}

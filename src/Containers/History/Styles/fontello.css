@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../Styles/font/fontello.eot?33941843');
+  src: url('../Styles/font/fontello.eot?33941843#iefix') format('embedded-opentype'),
+       url('../Styles/font/fontello.woff2?33941843') format('woff2'),
+       url('../Styles/font/fontello.woff?33941843') format('woff'),
+       url('../Styles/font/fontello.ttf?33941843') format('truetype'),
+       url('../Styles/font/fontello.svg?33941843#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?33941843#fontello') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-font-size-increase-2-512-01:before { content: '\21'; } /* '!' */
+.icon-credit-card:before { content: '\e800'; } /* '' */
+.icon-gauge-1:before { content: '\e801'; } /* '' */
+.icon-signal:before { content: '\e802'; } /* '' */
+.icon-credit-card-1:before { content: '\e803'; } /* '' */
+.icon-engine-01:before { content: '\e804'; } /* '' */
+.icon-007-wifi-3:before { content: '\e805'; } /* '' */
+.icon-005-wifi-2:before { content: '\e806'; } /* '' */
+.icon-006-high:before { content: '\e807'; } /* '' */
+.icon-001-wifi:before { content: '\e808'; } /* '' */
+.icon-009-wifi-4:before { content: '\e809'; } /* '' */
+.icon-cell-4-01:before { content: '\e80a'; } /* '' */
+.icon-008-cell-1:before { content: '\e80b'; } /* '' */
+.icon-010-wifi-5:before { content: '\e80c'; } /* '' */
+.icon-water:before { content: '\e80d'; } /* '' */
+.icon-droplet:before { content: '\e80e'; } /* '' */
+.icon-road:before { content: '\e80f'; } /* '' */
+.icon-temperatire:before { content: '\e810'; } /* '' */
+.icon-sports-car:before { content: '\e811'; } /* '' */
+.icon-onetrack--icon-01:before { content: '\e812'; } /* '' */
+.icon-onetrack--icon-02:before { content: '\e813'; } /* '' */
+.icon-measure-tools-01:before { content: '\e814'; } /* '' */
+.icon-routes-01:before { content: '\e815'; } /* '' */
+.icon-credit-card-2:before { content: '\e816'; } /* '' */
+.icon-coolant:before { content: '\e817'; } /* '' */
+.icon-exhaust:before { content: '\e818'; } /* '' */
+.icon-fuel:before { content: '\e819'; } /* '' */
+.icon-safety-belt:before { content: '\e81a'; } /* '' */
+.icon-onetrack--icon-03:before { content: '\e81b'; } /* '' */
+.icon-doorsensorsvg:before { content: '\e823'; } /* '' */
+.icon-audit:before { content: '\e824'; } /* '' */
+.icon-axle:before { content: '\e825'; } /* '' */
+.icon-group-10315:before { content: '\e826'; } /* '' */
+.icon-group-10970:before { content: '\e827'; } /* '' */
+.icon-group-10971:before { content: '\e828'; } /* '' */
+.icon-path-21553:before { content: '\e829'; } /* '' */
+.icon-path-21554:before { content: '\e82a'; } /* '' */
+.icon-path-21555:before { content: '\e82b'; } /* '' */
+.icon-path-21556:before { content: '\e82c'; } /* '' */
+.icon-path-21557:before { content: '\e82d'; } /* '' */
+.icon-path-21558:before { content: '\e82e'; } /* '' */
+.icon-path-21559:before { content: '\e82f'; } /* '' */
+.icon-path-21560:before { content: '\e830'; } /* '' */
+.icon-racing:before { content: '\e831'; } /* '' */
+.icon-group-10493:before { content: '\e836'; } /* '' */
+.icon-expand:before { content: '\e83b'; } /* '' */
+.icon-expand-arrows-alt:before { content: '\e83c'; } /* '' */
+.icon-layer-group:before { content: '\e83d'; } /* '' */
+.icon-location-arrow:before { content: '\e83e'; } /* '' */
+.icon-map-marker-alt:before { content: '\e83f'; } /* '' */
+.icon-road-1:before { content: '\e840'; } /* '' */
+.icon-user:before { content: '\f061'; } /* '' */
+.icon-gauge:before { content: '\f0e4'; } /* '' */
+.icon-bell-alt:before { content: '\f0f3'; } /* '' */
+.icon-wifi:before { content: '\f1eb'; } /* '' */
+.icon-battery-4:before { content: '\f240'; } /* '' */
+.icon-battery-3:before { content: '\f241'; } /* '' */
+.icon-battery-2:before { content: '\f242'; } /* '' */
+.icon-battery-1:before { content: '\f243'; } /* '' */
+.icon-battery-0:before { content: '\f244'; } /* '' */
+.icon-id-card:before { content: '\f2c2'; } /* '' */

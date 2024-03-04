@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-Playback_Icon">
+      <rect width="14" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="Playback_Icon" data-name="Playback Icon" clip-path="url(#clip-Playback_Icon)">
+    <g id="Group_9828" data-name="Group 9828" transform="translate(-14 -14)">
+      <path id="Path_21981" data-name="Path 21981" d="M.206-4.889a6.3,6.3,0,0,1,6.3-6.283,6.274,6.274,0,0,1,4.349,1.743l1.25-1.253a.406.406,0,0,1,.443-.089.406.406,0,0,1,.251.376V-6.7a.406.406,0,0,1-.4.4H8.7a.406.406,0,0,1-.376-.251A.406.406,0,0,1,8.416-7L9.7-8.28A4.655,4.655,0,0,0,6.5-9.548,4.668,4.668,0,0,0,3.2-8.18a4.668,4.668,0,0,0-1.367,3.3A4.668,4.668,0,0,0,3.2-1.572,4.668,4.668,0,0,0,6.5-.2a4.652,4.652,0,0,0,2.9-1.01.61.61,0,0,1,.81.05l.29.284a.609.609,0,0,1,.176.46.609.609,0,0,1-.222.439A6.268,6.268,0,0,1,6.5,1.418a6.309,6.309,0,0,1-6.3-6.307Z" transform="translate(14.794 26.172)" fill="#fff"/>
+      <g id="play-button" transform="translate(19.459 19.288)">
+        <g id="Group_9825" data-name="Group 9825" transform="translate(0)">
+          <path id="Path_20151" data-name="Path 20151" d="M20.614,3.943a.2.2,0,0,1-.2-.2V.2a.2.2,0,0,1,.2-.2L23.9,1.82a.21.21,0,0,1,0,.3C23.749,2.275,20.614,3.943,20.614,3.943Z" transform="translate(-20.412)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

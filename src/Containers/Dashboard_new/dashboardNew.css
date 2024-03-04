@@ -1,0 +1,92 @@
+.textTime {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin-right: 6px;
+    margin-bottom: 0px;
+    color: #515151;
+
+
+}
+
+.text-1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    color: #515151;
+}
+
+.select-chart-bar {
+    border: 2px solid #F3F6FB;
+    border-radius: 11px;
+    color: #000000;
+}
+
+.table-machine-detail {
+    border-collapse: collapse;
+    border: 2px solid #F3F6FB;
+    border-radius: 12px !important;
+    width: 100%;
+
+}
+
+.table-machine-detail th {
+    padding: 8px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.table-machine-detail td {
+    border-top: 2px solid #F3F6FB;
+    border-right: 2px solid #F3F6FB;
+    padding: 8px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+.table-machine-detail td:nth-last-child(1) {
+    border-right: 0 !important;
+}
+
+.box-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    background-color: red;
+    margin-right: 3px;
+}
+
+.img-explore {
+    width: 14px;
+    height: 14px !important;
+}
+.img-reset {
+    width: 16px;
+    height: 16px !important;
+}
+
+.text-2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #489FEA;
+}
+.text-3{
+    font-size: 14px;
+}
+.border-time{
+    border-radius: 13px;
+    background: #4190F733;
+    color: #4190F7;
+    font-size: 12px;
+
+}

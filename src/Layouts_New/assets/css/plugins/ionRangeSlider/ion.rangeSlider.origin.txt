@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\css\plugins\ionRangeSlider\ion.rangeSlider.css
+Content Type: text/css

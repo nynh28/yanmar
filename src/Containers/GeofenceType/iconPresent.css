@@ -1,0 +1,17 @@
+.icon-present { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    padding: '30 30px';
+  }
+  
+  /* IMAGE STYLES */
+  .icon-present + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  .icon-present:checked + img {
+    outline: 4px solid #f00;
+  }

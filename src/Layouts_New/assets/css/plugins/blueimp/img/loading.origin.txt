@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/css/plugins/blueimp/img/loading.gif
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\css\plugins\blueimp\img\loading.gif
+Content Type: image/gif

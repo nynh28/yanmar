@@ -1,0 +1,111 @@
+/* table-checkbox */
+.table-checkbox thead tr{
+    background-color:#2f4050;
+    color: white;
+}
+
+.table-checkbox td:nth-child(1)
+{
+  background-color: #2f4050;
+  color: white;
+}
+
+.table-checkbox th:not(:nth-child(1))
+{
+  text-align: center;
+}
+
+.table-checkbox td:not(:nth-child(1))
+{
+  text-align: center;
+}
+
+.table-checkbox  thead  tr  th,
+.table-checkbox  tbody  tr  th,
+.table-checkbox  tfoot  tr  th,
+.table-checkbox  thead  tr  td,
+.table-checkbox  tbody  tr  td,
+.table-checkbox  tfoot  tr  td {
+    border-top: 1px solid #d2d2d2;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+   }
+
+.table-checkbox tbody tr:nth-child(even)
+{
+  background: #f9f9f9;
+}
+
+table.table-checkbox, table.table-checkbox th, table.table-checkbox td
+  {
+    border:1px solid #8c8e8c;
+  }
+
+/* The container */
+.container {
+  position: relative;
+
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 10;
+
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #FFF;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  border-color: #cecece;
+
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #FFF;
+  border-color: #1b8c75;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #1b8c75;
+  border-color: #1b8c75;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

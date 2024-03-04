@@ -1,0 +1,53 @@
+.box-contrainer {
+  background-color: #FFF;
+  border-radius: 6px;
+  padding: 5px;
+  margin-top: 7px;
+}
+
+.box-header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.box-header-only {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.box-header .hd-left, .box-header-only .hd-left {
+  flex: 1
+}
+
+.box-header .hd-right, .box-header-only .hd-right {
+  flex: 1
+}
+
+.box-content {
+  padding: 21px !important;
+}
+
+.box-footer {
+  border-top: 1px solid rgb(230, 230, 230);
+  padding: 10px 10px 0px;
+}
+
+.ant-layout-content {
+  padding-top: 10px !important;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+  position: relative;
+  padding: 12px 16px;
+  padding-left: 20px !important;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 22px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  box-shadow: rgb(0 0 0 / 21%) 0px 0px 3px !important;
+  transition: all 0.3s;
+}

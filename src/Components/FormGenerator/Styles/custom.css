@@ -1,0 +1,18 @@
+.form-control{
+  box-shadow : inset 0 0px 1px rgba(6,0,0,.075);
+  border-radius: 4px;
+}
+
+.form-column{
+   padding-left:  40px;
+}
+
+ 
+.has-error .button-radio-checkbox{
+  border-color : #ed5565
+}
+ 
+
+.react-bootstrap-daterangepicker-container {
+  display: initial !important;
+}

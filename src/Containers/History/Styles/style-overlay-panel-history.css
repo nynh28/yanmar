@@ -1,0 +1,169 @@
+.hover-export:hover {
+    color: rgba(0, 0, 0, 0.54);
+    background-color: rgb(231, 234, 236);
+}
+.hover-export {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+.search-message-box-history{
+  padding-left: 20px ;
+  border-radius: 4px ;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: '#F9F9F9';
+}
+
+
+/* .form-history > tbody,
+  .form-history >tbody > tr, */
+  .form-history > tbody > tr > td{
+  /* border: 0px solid black ; */
+  border: 0px solid black !important;
+  /* padding: 5px; */
+
+}
+
+/* .table-print table > tbody > tr > td{
+  padding: 7px 10px 0px;
+  border: 0px red solid;
+  font-size: small;
+} */
+
+
+.action-icon {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 17px;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 700;
+  background: #fff;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.idling-action {
+  background: #FFE600 ;
+  color:#fff;
+  border-color: #FFE600;
+}
+
+.drive-action {
+    background: #5CE648;
+    color: #fff;
+    border-color: #5CE648;
+}
+
+.park-action {
+  background: #6f42c1;
+  color: #fff;
+  border-color: #6f42c1;
+}
+
+.overspeed-action {
+  background: #F86C6B;
+  color: #fff;
+  border-color: #F86C6B;
+}
+
+.startstop-action {
+  background: #fff;
+  color: #000;
+  border-color: lightgray;
+}
+
+
+
+/* TABLES */
+.tb-history {
+  border: 1px solid #EBEBEB;
+}
+.tb-history > thead > tr > th,
+.tb-history > thead > tr > td {
+  background-color: #F5F5F6;
+  border-bottom-width: 1px;
+  vertical-align: middle;
+}
+.tb-history > thead > tr > th,
+.tb-history > tbody > tr > th,
+.tb-history > tfoot > tr > th,
+.tb-history > thead > tr > td,
+.tb-history > tbody > tr > td,
+.tb-history > tfoot > tr > td {
+  border: 1px solid #e7e7e7;
+}
+.tb-history > thead > tr > th {
+  border-bottom: 1px solid #DDDDDD;
+}
+.tb-history > thead > tr > th,
+.tb-history > tbody > tr > th,
+.tb-history > tfoot > tr > th,
+.tb-history > thead > tr > td,
+.tb-history > tbody > tr > td,
+.tb-history > tfoot > tr > td {
+  border-top: 1px solid #e7eaec;
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: middle;
+  border-left: hidden;
+}
+
+
+.box-overlay-panel{
+  position: absolute;
+  z-index: 1;
+  min-height: 500px;
+  --heightA: calc(100vh - 61px);
+  /* --heightB: calc(var(--heightA) / 1.66);
+  --heightC: calc(var(--heightB) - 30px ); */
+  max-height: var(--heightC);
+  /* height: 500px; */
+  top: 15px;
+  right: 0px;
+  flex-direction: row;
+  display: flex;
+  /* width: calc(35% + 25px); */
+  /* width: 30%; */
+  /* min-width: 470px; */
+  /* max-height: 280px; */
+  z-index: 2;
+   /* box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px; */
+}
+
+.detail-overlay{
+  min-width: 480px;
+  --widthA: calc(100vw - 51px);
+  width:  calc(var(--widthA) / 4);
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+}
+
+.history-scrollbar {
+  position: relative;
+  overflow: auto;
+  --heightA: calc(100vh - 110px);
+  --heightB: calc(var(--heightA) / 1.66);
+  --heightC: calc(var(--heightB) - 230px);
+  height: var(--heightC);
+  /* height: 230px; */
+  min-height: 295px;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+.icon-calendar-ranges-history > .anticon.anticon-calendar{
+  position: absolute;
+  color: rgb(192, 192, 189);
+  margin: 10px;
+  right: 10px;
+  z-index: 20;
+  /* top: 14px; */
+}

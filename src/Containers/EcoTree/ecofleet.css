@@ -1,0 +1,635 @@
+.a4-portrait {
+
+  background-image: url("./ecotree-assets/temple-header.png");
+  background-size: 210mm 297mm !important;
+  position: relative !important;
+  /* margin-left:auto !important;
+    margin-right:auto !important; */
+  width: 210mm !important;
+  height: 297mm !important;
+
+}
+
+.a4-portrait-with-startfleet {
+  font-family: 'RSU';
+  background-image: url("./ecotree-assets/Temple-ecotreefleetp1.png");
+  background-size: 210mm 297mm !important;
+  position: relative !important;
+  /* margin-left:auto !important;
+    margin-right:auto !important; */
+  width: 210mm !important;
+  height: 297mm !important;
+
+}
+
+.a4-portrait-with-confleet {
+  font-family: 'RSU';
+  background-image: url("./ecotree-assets/Temple-ecotreefleetp2.png");
+  background-size: 210mm 297mm !important;
+  position: relative !important;
+  /* margin-left:auto !important;
+    margin-right:auto !important; */
+  width: 210mm !important;
+  height: 297mm !important;
+
+}
+
+.fleet-title-1 {
+  position: absolute;
+  top: 83px;
+  left: 140px;
+}
+
+/* .fleet-title-1 h5{
+  margin-top: 5px;
+} */
+
+.fleet-title-2 {
+  position: absolute;
+  top: 83px;
+  left: 520px;
+}
+.fleet-title-p2 {
+  position: absolute;
+  top: 83px;
+  left: 115px;
+}
+
+.fleet-title-7 {
+  position: absolute;
+  top: 125px;
+  left: 80px;
+}
+
+.fleet-title-8 {
+  position: absolute;
+  top: 145px;
+  left: 80px;
+  color: #a3a3a3;
+}
+
+.fleet-title-9 {
+  position: absolute;
+  top: 125px;
+  left: 300px;
+}
+
+.fleet-title-10 {
+  position: absolute;
+  top: 145px;
+  left: 300px;
+  color: #a3a3a3;
+}
+
+.fleet-title-11 {
+  position: absolute;
+  top: 125px;
+  left: 360px;
+}
+
+.fleet-title-12 {
+  position: absolute;
+  top: 145px;
+  left: 360px;
+  color: #a3a3a3;
+}
+
+.fleet-title-13 {
+  position: absolute;
+  top: 185px;
+  left: 80px;
+}
+
+.fleet-title-14 {
+  position: absolute;
+  top: 215px;
+  left: 80px;
+  color: #a3a3a3;
+}
+
+.fleet-title-15 {
+  position: absolute;
+  top: 185px;
+  left: 300px;
+}
+
+.fleet-title-16 {
+  position: absolute;
+  top: 215px;
+  left: 300px;
+  color: #a3a3a3;
+}
+
+.fleet-title-17 {
+  position: absolute;
+  top: 185px;
+  left: 360px;
+}
+
+.fleet-title-18 {
+  position: absolute;
+  top: 215px;
+  left: 360px;
+  color: #a3a3a3;
+}
+
+.fleet-title-19 {
+  position: absolute;
+  top: 600px;
+  left: 80px;
+  color: #000000;
+}
+
+.fleet-title-20 {
+  position: absolute;
+  top: 850px;
+  left: 80px;
+  color: #000000;
+}
+
+.fleet-title-21 {
+  position: absolute;
+  top: 283px;
+  left: 60px;
+  color: #000000;
+}
+
+.fleet-title-22 {
+  position: absolute;
+  top: 815px;
+  left: 83px;
+  color: #000000;
+}
+
+.fleet-title-23 {
+  position: absolute;
+  top: 90px;
+  left: 489px;
+  color: #000000;
+}
+
+.fleet-title-24 {
+  position: absolute;
+  top: 600px;
+  left: 440px;
+  color: #000000;
+}
+
+.fleet-title-25 {
+  position: absolute;
+  top: 360px;
+  left: 170px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.fleet-title-26 {
+  position: absolute;
+  top: 430px;
+  left: 170px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.fleet-title-27 {
+  position: absolute;
+  top: 533px;
+  left: 70px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.fleet-title-28 {
+  position: absolute;
+  top: 533px;
+  left: 130px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.fleet-title-29 {
+  position: absolute;
+  top: 533px;
+  left: 190px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.fleet-title-30 {
+  position: absolute;
+  top: 533px;
+  left: 254px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.fleet-title-31 {
+  position: absolute;
+  top: 533px;
+  left: 329px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.fleet-title-32 {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  color: #000000;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.fleet-title-33 {
+  position: absolute;
+  top: 200px;
+  left: 650px;
+  color: #000000;
+  font-size: 8px;
+  font-weight: 700;
+}
+.fleet-title-34 {
+  position: absolute;
+  top: 596px;
+  left: -1px;
+  transform: rotate(-90deg);
+  color: #000000;
+  font-size: 8px;
+  font-weight: 700;
+}
+.fleet-title-35 {
+  position: absolute;
+  top: 600px;
+  left: 392px;
+  transform: rotate(-90deg);
+  color: #000000;
+  font-size: 8px;
+  font-weight: 700;
+}
+.fleet-title-36 {
+  position: absolute;
+  top: 600px;
+  left: 49px;
+  transform: rotate(-90deg);
+  color: #000000;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+.stackchart2 {
+  position: absolute;
+  top: 280px;
+  left: 20px
+}
+
+.spiderfleet {
+  position: absolute;
+  top: 475px;
+  left: 120px;
+}
+
+.spider1fleet {
+  position: absolute;
+  top: 460px;
+  left: 460px;
+}
+
+.Hourunitgraph {
+  position: absolute;
+  top: 890px;
+  left: 40px;
+}
+
+.Mileageunitgraph {
+  position: absolute;
+  top: 640px;
+  left: 15px;
+}
+
+.Top10geo {
+  position: absolute;
+  top: 630px;
+  left: 390px;
+}
+
+.Operationchartbar {
+  position: absolute;
+  top: 290px;
+  left: 20px;
+}
+
+.Operationchartdriver {
+  position: absolute;
+  top: 306.5px;
+  left: 402px;
+}
+
+.Operationchartvehicle {
+  position: absolute;
+  top: 312px;
+  left: 3px;
+}
+
+.Daynightgraph {
+  position: absolute;
+  top: 130px;
+  left: 450px;
+}
+
+.Drivergrade {
+  position: absolute;
+  top: 850px;
+  left: 4px;
+}
+
+.table-fleet {
+  position: absolute;
+  top: 110px;
+  left: 35px;
+  width: 90%;
+
+}
+
+.tablefleet2 {
+  position: absolute;
+  top: 130px;
+  left: 460px;
+
+}
+
+.tabletoprank {
+  position: absolute;
+  top: 115px;
+  left: 377px;
+  width: 50%;
+}
+
+.tabletoprankdriver {
+  position: absolute;
+  top: 115px;
+  left: 19px;
+  width: 42%;
+}
+
+.DLT-title2 {
+    position: absolute;
+    top: 815px;
+    left: 305px;
+    color: #000000;
+}
+
+.HC-title2 {
+  position: absolute;
+  top: 950px;
+  left: 305px;
+  color: #000000;
+}
+
+
+.HSCfleet {
+  position: absolute;
+  top: 975px;
+  left: 295px;
+  width: 60%;
+  text-align: center;
+}
+
+.DLTtable {
+  position: absolute;
+  top: 690px;
+  left: 45px;
+}
+
+div.greyGridTable2 {
+  /* border: 0px solid #FFFFFF; */
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.divTable.greyGridTable2 .divTableCell,
+.divTable.greyGridTable2 .divTableHead {
+  /* border: 1px solid #FFFFFF; */
+  padding: 2px 2px;
+  text-align: center;
+}
+.fix-driver-cell{
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fix-vehicle-cell{
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.divTable.greyGridTable2 .divTableBody .divTableCell {
+  font-size: 16px;
+}
+
+.divTable.greyGridTable2 .divTableRow:nth-child(even) {
+
+  background: #eaeaea;
+
+
+}
+
+.divTable.greyGridTable2 .divTableHeading {
+  background: #FFFFFF;
+  border-bottom: 1px solid #a4a5a9;
+}
+
+.divTable.greyGridTable2 .divTableHeading .divTableHead {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  /* border-left: 1px solid #a4a5a9; */
+}
+
+.divTable.greyGridTable2 .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.divTable.greyGridTable2 .tableFootStyle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+
+}
+
+.hcell {
+  font-size: 15px;
+  text-align: left;
+
+}
+
+.scorecell {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+div.DLTreportfleet {
+  position: absolute;
+  top: 850px;
+  left: 295px;
+  width: 60%;
+  text-align: center;
+}
+
+.divTable.DLTreportfleet .divTableCell,
+.divTable.DLTreportfleet .divTableHead {
+  border: 1px solid #FFFFFF;
+  padding: 1px 5px;
+  margin: 10px;
+}
+
+.divTable.DLTreportfleet .divTableBody .divTableCell {
+  background: #d1d4ea;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.divTable.DLTreportfleet .divTableHeading {
+  background: #4c74be;
+}
+
+.divTable.DLTreportfleet .divTableHeading .divTableHead {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+/* HNPtable */
+div.HSCreport2 {
+
+  text-align: center;
+  border-collapse: collapse;
+
+}
+
+.divTable.HSCreport2 .divTableCell,
+.divTable.HSCreport2 .divTableHead {
+  padding: 1px 5px;
+  border: 1px solid #a4a5a960;
+}
+
+.divTable.HSCreport2 .divTableBody .divTableCell {
+  color: #c90000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* .divTable.HSCreport2 .divTableHeading {} */
+
+.divTable.HSCreport2 .divTableHeading .divTableHead {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.HSCreport2 .tableFootStyle {
+  font-size: 14px;
+}
+
+/* sumtable */
+
+div.greyGridTable3 {
+  /* border: 0px solid #FFFFFF; */
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.divTable.greyGridTable3 .divTableCell,
+.divTable.greyGridTable3 .divTableHead {
+  /* border: 1px solid #FFFFFF; */
+  padding: 2px 2px;
+  text-align: center;
+}
+
+.divTable.greyGridTable3 .divTableBody .divTableCell {
+  font-size: 12px;
+}
+
+/* .divTable.greyGridTable3 .divTableRow:nth-child(even) {} */
+
+.divTable.greyGridTable3 .divTableHeading {
+
+  border-bottom: 1px solid #a4a5a9;
+}
+
+.divTable.greyGridTable3 .divTableHeading .divTableHead {
+  font-size: 9px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  /* border-left: 1px solid #a4a5a9; */
+}
+
+.divTable.greyGridTable3 .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.divTable.greyGridTable3 .tableFootStyle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+
+}
+
+.fleetsumtable {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+.spiderfleet-headline1{
+  position: absolute;
+    top: 740px;
+    left: 170px;
+}
+.spiderfleet-headline2{
+  position: absolute;
+  top: 740px;
+  left: 259px;
+}
+.spiderfleet-headline3{
+  position: absolute;
+  top: 740px;
+  left: 529px;
+}
+.spiderfleet-headline4{
+  position: absolute;
+  top: 740px;
+  left: 618px;
+}

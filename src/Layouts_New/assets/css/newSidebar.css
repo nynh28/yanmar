@@ -1,0 +1,12 @@
+#divMyScroll .disable > a {
+  pointer-events: none;
+  cursor:default
+}
+#divMyScroll .disable > a:hover {
+  background-color: transparent;
+}
+#divMyScroll .disable > a > div > span,
+#divMyScroll .disable > a > div > i,
+#divMyScroll .disable > a > span > span {
+  color: rgb(154, 154, 154) !important;
+}

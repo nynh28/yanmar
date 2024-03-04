@@ -1,0 +1,5 @@
+.table-custom tbody tr td,
+.table-custom thead tr th
+ {
+  border: none
+}

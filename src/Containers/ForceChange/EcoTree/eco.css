@@ -1,0 +1,1035 @@
+.print{
+
+}
+
+.a4-portrait {
+
+    background-image: url("./ecotree-assets/temple-header.png");
+    background-size: 220mm 297mm !important;
+    position: relative !important;
+    /* margin-left:auto !important;
+    margin-right:auto !important; */
+    width:220mm !important;
+    height:297mm !important;
+
+}
+
+.a4-portrait-with-startdriver {
+
+    background-image: url("./ecotree-assets/Temple-coneco5.png");
+    background-size: 220mm 297mm !important;
+    position: relative !important;
+    /* margin-left:auto !important;
+    margin-right:auto !important; */
+    width:220mm !important;
+    height:297mm !important;
+
+}
+
+.a4-portrait-with-condriver {
+
+    background-image: url("./ecotree-assets/Temple-coneco8.png");
+    background-size: 220mm 297mm !important;
+    position: relative !important;
+    /* margin-left:auto !important;
+    margin-right:auto !important; */
+    width:220mm !important;
+    height:297mm !important;
+
+}
+.a4-portrait-with-condriver1 {
+
+  background-image: url("./ecotree-assets/Temple-coneco11.png");
+  background-size: 220mm 297mm !important;
+  position: relative !important;
+  /* margin-left:auto !important;
+  margin-right:auto !important; */
+  width:220mm !important;
+  height:297mm !important;
+
+}
+
+
+
+.developer-margin {
+    margin-top:2%;
+}
+
+.firsttable{
+ width:60%;
+ position: absolute;
+ top:20%;
+ left:20%
+}
+.pdf-headline{
+    position: absolute;
+    top:5px;
+    left:25px;
+}
+.pdf-headline-1{
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+
+}
+.pdf-headline-2{
+  position: absolute;
+  top: 50px;
+  left: 25px;
+
+}
+.pdf-headline-3{
+  position: absolute;
+  top: 12px;
+  left: 260px;
+
+}
+.pdf-headline-4{
+  position: absolute;
+  top: 30px;
+  left: 260px;
+
+}
+.pdf-headline-5{
+  position: absolute;
+  top: 50px;
+  left: 260px;
+
+}
+
+.pdf-headline-con {
+    position: absolute;
+    top:23px;
+    left:300px;
+}
+
+.pdf-title-1{
+    position: absolute;
+    border-left:5px;
+    top:80px;
+    left:30px;
+}
+
+.pdf-title-graph-1 {
+    position: absolute;
+    border-left:5px;
+    top:80px;
+    left:550px;
+}
+
+
+
+.pdf-title-2{
+    position: absolute;
+    top:85px;
+    left:50px;
+}
+
+.pdf-title-3{
+    position: absolute;
+    top:370px;
+    left:50px;
+}
+
+.pdf-title-graph-3 {
+    position: absolute;
+    top:370px;
+    left:500px;
+}
+
+.pdf-2-container{
+  text-indent: 20px;
+  font-size: 18px;
+  position: absolute;
+  width: 500px;
+  top: 930px;
+  left: 200px;
+
+}
+.pdf-3-container{
+  text-indent: 5px;
+  font-size: 17px;
+  position: absolute;
+  width: 330px;
+  top: 660px;
+  left: 430px;
+  background-color: #ffffff;
+  border: 4px solid rgb(219, 219, 219);
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.pdf-title-4{
+    position: absolute;
+    top:175px;
+    left:50px;
+}
+.pdf-title-5{
+    position: absolute;
+    top:175px;
+    left:400px;
+}
+.pdf-title-6{
+    position: absolute;
+    width:340px;
+    text-align: center;
+    top:1040px;
+    left:50px;
+}
+.pdf-title-7{
+    position: absolute;
+    width:340px;
+    text-align: center;
+    top:1040px;
+    left:400px;
+}
+
+.pdf-title-8{
+  position: absolute;
+    top: 90px;
+    left: 135px;
+}
+
+.pdf-title-9{
+  position: absolute;
+  top: 90px;
+  left: 525px;
+}
+
+.pdf-title-10{
+    position: absolute;
+    top:395px;
+    left:30px;
+}
+.pdf-title-11{
+    position: absolute;
+    top:245px;
+    left:30px;
+}
+.pdf-title-12{
+    position: absolute;
+    top:265px;
+    left:30px;
+}
+
+.pdf-title-13{
+    text-indent: 5px;;
+    font-size:20px;
+    position: absolute;
+    width:500px;
+    top:510px;
+    left: 30px;
+}
+
+.pdf3-headline {
+    position: absolute;
+    width:550px;
+    text-align: center;
+    top:20px;
+    left:-140px;
+}
+
+.pdf3-table{
+    max-width:80%;
+    position: absolute;
+    top:0px;
+    left:10%;
+}
+
+.dx-datagrid {
+    font-size:14px;
+    background-color:rgba(255, 255, 255, 0.0);
+}
+
+
+.dngraph{
+    position: absolute;
+    top:430px;
+    left:100px
+}
+
+
+.dngraph1{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+}
+
+.pie1{
+    position: absolute;
+    top:-250px;
+    left:70px
+}
+
+.pie2{
+    position: absolute;
+    top:-250px;
+    left:70px
+}
+
+.stackchart{
+    position: absolute;
+    top:135px;
+    left:20px
+}
+
+
+
+.gauge{
+    position: absolute;
+    top:30px;
+    left:510px;
+}
+.gaugeline{
+    position: absolute;
+    left: 4px;
+    top: -88px;
+
+}
+.gauge-values{
+    position: absolute;
+    top:178px;
+    left:360px;
+    z-index: 100;
+    color: #a3a3a3 ;
+}
+.gauge-values1{
+    position: absolute;
+    top:193px;
+    left:360px;
+    z-index: 100;
+    color: #1db2f5;
+}
+.gauge1{
+    position: absolute;
+    top:200px;
+    left:510px;
+
+}
+
+.gaugeline1{
+    position: absolute;
+    left: 5px;
+    top: -88px;
+
+}
+.gauge-values3{
+    position: absolute;
+    top:305px;
+    left:360px;
+    z-index: 100;
+    color: #a3a3a3;
+}
+.gauge-values4{
+    position: absolute;
+    top:320px;
+    left:360px;
+    z-index: 100;
+    color: #1db2f5;
+}
+
+.custom{
+    position: absolute;
+    top:540px;
+    left:25px;
+}
+.custom2{
+    position: absolute;
+    top:110px;
+    left:500px;
+}
+.fuelcon-1{
+  position: absolute;
+  top:657px;
+  left:500px;
+}
+
+.fuelcon-2{
+    position: absolute;
+    top:675px;
+    left:425px;
+}
+
+/* .spider{
+  position: absolute;
+  top: 105px;
+  left: 330px;
+} */
+
+.spider1{
+  position: absolute;
+  top: 72px;
+  left: 486px;
+}
+
+.spider{
+  position: absolute;
+  top: 77px;
+  left: 100px;
+}
+
+/* .spider1{
+  position: absolute;
+  top: 56px;
+  left: 140px;
+
+} */
+
+.moon{
+    position: absolute;
+    top:600px;
+    left:20px;
+    width: 80px;
+    height: 80px;
+}
+
+.day{
+    position: absolute;
+    top:465px;
+    left:20px;
+    width: 80px;
+    height: 80px;
+}
+
+.border{
+    position: absolute;
+    top:50px;
+    left:39px;
+    width: 350px;
+    height: 300px;
+}
+
+.border1{
+    position: absolute;
+    top:50px;
+    left:410px;
+    width: 350px;
+    height: 300px;
+}
+
+.table-spider {
+  position: absolute;
+  top: 380px;
+  left: 40px;
+  width: 90%;
+  height: 100%;
+}
+
+.table-spider-1 {
+  position: absolute;
+    top: 950px;
+    left: 40px;
+    width: 90%;
+    height: 100%;
+}
+
+.truck{
+    position: absolute;
+    top:520px;
+    left:623px;
+    width: 60px;
+    height: 60px;
+}
+
+.border2{
+    position: absolute;
+    top:205px;
+    left:550px;
+    width: 155px;
+    height: 25px;
+}
+
+.border3{
+    position: absolute;
+    top:335px;
+    left:550px;
+    width: 155px;
+    height: 25px;
+}
+
+.gauge-title-1{
+    position: absolute;
+    top:205px;
+    left:555px;
+    z-index: 100;
+}
+
+.gauge-title-2{
+    position: absolute;
+    top:335px;
+    left:560px;
+    z-index: 100;
+}
+
+.gauge-title-3{
+    position: absolute;
+    top:205px;
+    left:677px;
+    z-index: 155;
+}
+
+.gauge-title-4{
+    position: absolute;
+    top:335px;
+    left:677px;
+    z-index: 155;
+}
+
+/* header */
+
+.H-detail-1{
+  position: absolute;
+  top:89px;
+  left:150px;
+}
+.H-detail-2{
+  position: absolute;
+  top: 89px;
+  left: 550px;
+}
+
+
+.vehicle-title-1{
+    position: absolute;
+    top:240px;
+    left:450px;
+}
+
+.vehicle-title-2{
+    position: absolute;
+    top:260px;
+    left:450px;
+}
+
+.vehicle-title-3{
+    position: absolute;
+    top:240px;
+    left:660px;
+}
+
+.vehicle-title-4{
+    position: absolute;
+    top:260px;
+    left:660px;
+    color: #c90000;
+
+}
+
+.vehicle-title-5{
+    position: absolute;
+    top:240px;
+    left:730px;
+}
+
+.vehicle-title-6{
+    position: absolute;
+    top:260px;
+    left:730px;
+
+}
+
+.vehicle-title-7{
+    position: absolute;
+    top:115px;
+    left:80px;
+}
+
+.vehicle-title-8{
+    position: absolute;
+    top:135px;
+    left:80px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-9{
+    position: absolute;
+    top:115px;
+    left:280px;
+}
+
+.vehicle-title-10{
+    position: absolute;
+    top:135px;
+    left:280px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-11{
+    position: absolute;
+    top:115px;
+    left:360px;
+}
+
+.vehicle-title-12{
+    position: absolute;
+    top:135px;
+    left:360px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-13{
+    position: absolute;
+    top:170px;
+    left:80px;
+}
+
+.vehicle-title-14{
+    position: absolute;
+    top:190px;
+    left:80px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-15{
+    position: absolute;
+    top:170px;
+    left:280px;
+}
+
+.vehicle-title-16{
+    position: absolute;
+    top:190px;
+    left:280px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-17{
+    position: absolute;
+    top:170px;
+    left:360px;
+}
+
+.vehicle-title-18{
+    position: absolute;
+    top:190px;
+    left:360px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-19{
+    position: absolute;
+    top:220px;
+    left:80px;
+}
+
+.vehicle-title-20{
+    position: absolute;
+    top:240px;
+    left:80px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-21{
+    position: absolute;
+    top:220px;
+    left:280px;
+}
+
+.vehicle-title-22{
+    position: absolute;
+    top:240px;
+    left:280px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-23{
+    position: absolute;
+    top:220px;
+    left:360px;
+}
+
+.vehicle-title-24{
+    position: absolute;
+    top:240px;
+    left:360px;
+    color:#a3a3a3;
+}
+
+.vehicle-title-25{
+  position: absolute;
+  top:115px;
+  left:450px;
+
+}
+
+
+.vehicle-title-26{
+  position: absolute;
+  top:115px;
+  left:660px;
+
+}
+
+.vehicle-title-27{
+  position: absolute;
+  top:115px;
+  left:730px;
+}
+
+.vehicle-title-28{
+  position: absolute;
+  top:135px;
+  left:450px;
+  color:#a3a3a3;
+}
+
+.vehicle-title-29{
+  position: absolute;
+  top:135px;
+  left:660px;
+  color:#a3a3a3;
+}
+.vehicle-title-30{
+  position: absolute;
+  top:135px;
+  left:730px;
+  color:#a3a3a3;
+}
+.vehicle-title-31{
+  position: absolute;
+  top:220px;
+  left:450px;
+}
+.vehicle-title-32{
+  position: absolute;
+  top:220px;
+  left:660px;
+}
+.vehicle-title-33{
+  position: absolute;
+  top:220px;
+  left:730px;
+}
+
+.vehicle-title-34{
+  position: absolute;
+  top:280px;
+  left:450px;
+  color:#a3a3a3;
+}
+.vehicle-title-35{
+  position: absolute;
+  top:280px;
+  left:660px;
+  color:#a3a3a3;
+}
+.vehicle-title-36{
+  position: absolute;
+  top:280px;
+  left:730px;
+  color:#a3a3a3;
+}
+
+.vehicle-title-37{
+  position: absolute;
+  top:270px;
+  left:80px;
+
+}
+.vehicle-title-38{
+  position: absolute;
+  top:270px;
+  left:280px;
+
+}
+.vehicle-title-39{
+  position: absolute;
+  top:290px;
+  left:280px;
+
+}
+.vehicle-title-40{
+  position: absolute;
+  top:270px;
+  left:360px;
+
+}
+.vehicle-title-41{
+  position: absolute;
+  top:290px;
+  left:360px;
+
+}
+
+.vehicle-title-42 {
+  position: absolute;
+  top: 300px;
+  left: 450px;
+}
+
+.vehicle-title-43 {
+  position: absolute;
+  top: 300px;
+  left: 660px;
+}
+.vehicle-title-44 {
+  position: absolute;
+  top: 300px;
+  left: 730px;
+}
+.vehicle-title-45 {
+  position: absolute;
+  top: 170px;
+  left: 450px;
+}
+.vehicle-title-46 {
+  position: absolute;
+  top: 170px;
+  left: 660px;
+  color: #c90000;
+}
+.vehicle-title-47 {
+  position: absolute;
+  top: 170px;
+  left: 730px;
+}
+.vehicle-title-48 {
+  position: absolute;
+  top: 190px;
+  left: 450px;
+  color:#a3a3a3;
+}
+.vehicle-title-49 {
+  position: absolute;
+  top: 190px;
+  left: 660px;
+  color:#a3a3a3;
+}
+.vehicle-title-50 {
+  position: absolute;
+  top: 190px;
+  left: 730px;
+  color:#a3a3a3;
+}
+.DLT-title{
+  position: absolute;
+  top: 660px;
+  left: 60px;
+  color:#000000;
+}
+
+.HC-title{
+  position: absolute;
+  top: 750px;
+  left: 60px;
+  color:#000000;
+
+}
+
+
+.runingtimecharts-1{
+  position: absolute;
+  top: 810px;
+  left: 500px;
+}
+
+.runingtimecharts-2{
+    position: absolute;
+    top: 830px;
+    left: 440px;
+}
+
+.doughnut-2{
+    position: absolute;
+    top:740px;
+    left:465px;
+}
+
+/* ecoandsaftytablec */
+
+div.greyGridTable {
+  /* border: 0px solid #FFFFFF; */
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.divTable.greyGridTable .divTableCell, .divTable.greyGridTable .divTableHead {
+  /* border: 1px solid #FFFFFF; */
+  padding: 2px 2px;
+  text-align: center;
+}
+.divTable.greyGridTable .divTableBody .divTableCell {
+  font-size: 14px;
+}
+.divTable.greyGridTable .divTableRow:nth-child(even) {
+
+  background: #eaeaea;
+
+
+}
+.divTable.greyGridTable .divTableHeading {
+  background: #FFFFFF;
+  border-bottom: 2px solid #a4a5a9;
+}
+.divTable.greyGridTable .divTableHeading .divTableHead {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  /* border-left: 1px solid #a4a5a9; */
+}
+.divTable.greyGridTable .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.divTable.greyGridTable .tableFootStyle {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 1px solid #333333;
+
+}
+
+.hcell{
+  font-size: 14px;
+  text-align: left;
+
+}
+.scorecellbr{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-right: 1px solid #a4a5a9;
+
+}
+
+.scorecell{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+
+
+.summary{
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  border-top: 2px solid #a4a5a9;
+  border-bottom: 2px solid #a4a5a9;
+  background-color: #FFFFFF  !important;
+};
+
+/* DLTtable */
+.DLT {
+  position: absolute;
+  top: 660px;
+  left: 45px;
+}
+
+
+div.DLTreport {
+  position: absolute;
+  top: 685px;
+  left: 30px;
+  width: max-content;
+  text-align: center;
+}
+.divTable.DLTreport .divTableCell, .divTable.DLTreport .divTableHead {
+  border: 1px solid #a4a5a960;
+  padding: 1px 5px;
+  margin: 10px;
+}
+.divTable.DLTreport .divTableBody .divTableCell {
+  color: #c90000;
+  font-size: 14px;
+  font-weight: 600;
+}
+.divTable.DLTreport .divTableHeading {
+
+}
+.divTable.DLTreport .divTableHeading .divTableHead {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+
+}
+
+/* HSCtable */
+.HSC {
+  position: absolute;
+  top: 780px;
+  left: 30px;
+  width: 46%;
+  text-align: center;
+}
+
+
+div.HSCreport {
+
+  text-align: center;
+  border-collapse: collapse;
+
+}
+.divTable.HSCreport .divTableCell, .divTable.HSCreport .divTableHead {
+  padding: 1px 5px;
+  border: 1px solid #a4a5a960;
+}
+.divTable.HSCreport .divTableBody .divTableCell {
+  color: #c90000;
+  font-size: 14px;
+  font-weight: 600;
+}
+.divTable.HSCreport .divTableHeading {
+  }
+.divTable.HSCreport .divTableHeading .divTableHead {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+.HSCreport .tableFootStyle {
+  font-size: 14px;
+}
+.comment-safetytop{
+  font-size: 18px;
+  position: absolute;
+  top: 870px;
+  left: 200px;
+
+}
+
+.comment-safety{
+
+  font-size: 18px;
+  position: absolute;
+  width: 500px;
+  top: 945px;
+  left: 200px;
+
+}
+.comment-eco{
+  text-indent: 20px;
+  font-size: 18px;
+  position: absolute;
+  width: 500px;
+  top: 930px;
+  left: 200px;
+
+}
+
+.footerscorecell{
+  font-weight: bold;
+  border-right: 1px solid #a4a5a9;
+
+}
+
+.sharp{
+  color: red;
+}
+
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+

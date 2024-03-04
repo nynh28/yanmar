@@ -1,0 +1,44 @@
+.form-control{
+  box-shadow : inset 0 1px 1px rgba(0,0,0,.075);
+  border-radius: 4px;
+}
+
+.form-column{
+   padding-left:  40px;
+}
+
+
+/* TABLES */
+.table-custom-basic {
+  border: 1px solid #EBEBEB;
+}
+.table-custom-basic > thead > tr > th,
+.table-custom-basic > thead > tr > td {
+  background-color: #F5F5F6;
+  border-bottom-width: 1px;
+  vertical-align: middle;
+}
+.table-custom-basic > thead > tr > th,
+.table-custom-basic > tbody > tr > th,
+.table-custom-basic > tfoot > tr > th,
+.table-custom-basic > thead > tr > td,
+.table-custom-basic > tbody > tr > td,
+.table-custom-basic > tfoot > tr > td {
+  border: 1px solid #e7e7e7;
+}
+.table-custom-basic > thead > tr > th {
+  border-bottom: 1px solid #DDDDDD;
+}
+.table-custom-basic > thead > tr > th,
+.table-custom-basic > tbody > tr > th,
+.table-custom-basic > tfoot > tr > th,
+.table-custom-basic > thead > tr > td,
+.table-custom-basic > tbody > tr > td,
+.table-custom-basic > tfoot > tr > td {
+  border-top: 1px solid #e7eaec;
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: middle;
+  /* border-left: hidden; */
+  border-style: none;
+}

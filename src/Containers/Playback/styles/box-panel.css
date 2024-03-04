@@ -1,0 +1,115 @@
+.ibox-content-list {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px;
+  --heightA: calc(100vh - 55px);
+  --heightB: calc(var(--heightA) * (3/6));
+  height: var(--heightB);
+}
+
+.ibox-footer-list {
+  color: inherit;
+  border-top: 1px solid #e7eaec;
+  font-size: 90%;
+  background: #ffffff;
+  padding: 15px;
+  --heightA: calc(100vh - 55px);
+  --heightB: calc(var(--heightA) * (3/6));
+  height: var(--heightB);
+  overflow: auto;
+}
+
+.ibox-footer-list .checkbox-channel {
+  margin-bottom: 10px;
+}
+
+@media (min-height: 650px) {
+  .ibox-content-list {
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (1/2));
+    height: var(--heightB);
+  }
+  .ibox-footer-list {
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (1/2));
+    height: var(--heightB);
+  }
+}
+
+@media (max-width: 992px) {
+  .ibox-content-list {
+    height: 330px;
+  }
+  .ibox-footer-list {
+    height: auto;
+  }
+}
+
+.ibox-footer-list .ibox-scrollbar {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.ibox-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgb(0 0 0 / 30%);
+  background-color: #ffffff;
+}
+
+.ibox-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+  background-color: #F5F5F5;
+}
+
+.ibox-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c2c2c2;
+}
+
+
+.active-green {
+  background-color: rgb(12 158 97);
+  color: white;
+}
+.highlight-item {
+  background-color: #e6e6e6;
+}
+
+.box-panel-trip-list-2 .dx-toolbar .dx-toolbar-after {
+  width: 100%;
+  padding-left: 0px;
+}
+.box-panel-trip-list-2 .dx-datagrid-search-panel {
+  margin: 0px;
+}
+
+
+/* CALENDAR CUSTOM */
+
+.site-calendar-card-border {
+  /* width: 300px; */
+  border: 1.3px solid #f0f0f0;
+  border-radius: 2px;
+}
+[data-theme="dark"] .site-calendar-card-border {
+  border: 1px solid #303030;
+}
+
+.ant-picker-calendar-header {
+  padding: 6px 5px;
+}
+.ant-radio-group.ant-radio-group-outline.ant-radio-group-small.ant-picker-calendar-mode-switch {
+  display: none;
+}
+.ant-picker-content > thead > tr > th {
+  font-size: 12px;
+  border: 0px solid #8c8e8c;
+}
+.ant-picker-calendar-date-value {
+  font-size: 12px;
+}
+
+/* .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  border-color: #001dff;
+} */

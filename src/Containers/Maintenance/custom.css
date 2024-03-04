@@ -1,0 +1,155 @@
+.label-normal {
+  background-color: #5ce548;
+  color: #fff;
+}
+
+.label-warning {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.label-urgent {
+  background-color: #f86c6b;
+  color: #fff;
+}
+
+.label-new-vehicle {
+  background-color: #3b86ff;
+  color: #fff;
+}
+
+.label-new-dealer {
+  background-color: #20c997;
+  color: #fff;
+}
+
+/* TABLES */
+.table-notification {
+  border: 1px solid #ebebeb;
+}
+.table-notification > thead > tr > th,
+.table-notification > thead > tr > td {
+  background-color: #f5f5f6;
+  border-bottom-width: 1px;
+  vertical-align: middle;
+}
+.table-notification > thead > tr > th,
+.table-notification > tbody > tr > th,
+.table-notification > tfoot > tr > th,
+.table-notification > thead > tr > td,
+.table-notification > tbody > tr > td,
+.table-notification > tfoot > tr > td {
+  border: 1px solid #e7e7e7;
+}
+.table-notification > thead > tr > th {
+  border-bottom: 1px solid #dddddd;
+}
+.table-notification > thead > tr > th,
+.table-notification > tbody > tr > th,
+.table-notification > tfoot > tr > th,
+.table-notification > thead > tr > td,
+.table-notification > tbody > tr > td,
+.table-notification > tfoot > tr > td {
+  border-top: 1px solid #e7eaec;
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: middle;
+  border-left: hidden;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  border-color: #cecece;
+}
+
+.container-checkbox {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+}
+
+/* On mouse-over, add a grey background color */
+.container-checkbox:hover input ~ .checkmark {
+  background-color: #fff;
+  border-color: #1b8c75;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+  background-color: #1b8c75;
+  border-color: #1b8c75;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.notification-custom-purple {
+  width: 100%;
+  display: flex;
+  background-color: rgb(88, 86, 214);
+}
+
+.notification-custom-blue {
+  width: 100%;
+  display: flex;
+  /* background-color: #dc3545; */
+  background-color: #0272b7;
+}
+
+.notification-custom-yellow {
+  width: 100%;
+  display: flex;
+  /* background-color: #dc3545; */
+  background-color: #ff9500;
+}
+
+.icon-calendar-ranges-noti > .anticon.anticon-calendar {
+  position: absolute;
+  color: rgb(192, 192, 189);
+  margin: 10px;
+  right: 25px;
+  z-index: 20;
+  /* top: 14px; */
+}
+
+#date-close {
+  position: absolute;
+  color: rgb(192, 192, 189);
+  margin: 10px;
+  right: 25px;
+  top: 80px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}

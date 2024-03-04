@@ -1,0 +1,22 @@
+.button-radio{
+    color: white;
+    background-color: rgb(167, 167, 167);
+  }
+  .active, .button-radio:hover, .button-radio:focus{
+    color: white;
+    background-color: lightseagreen;
+  }
+  .leaflet-container {
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+  }
+  /* .sr-only {
+    display: none;
+  } */
+  .test {
+    width: 200px;
+  }
+  .geofence_layout {
+    display: inline-flex
+  }

@@ -1,0 +1,113 @@
+
+.header-fixed {
+    overflow-y: auto;
+     height: 100px;
+    }
+
+ .header-fixed thead th {
+      position: sticky; top: 0;
+     }
+
+.tb-trip-list {
+    border: 1px solid #EBEBEB;
+  }
+  .tb-trip-list > thead > tr > th,
+  .tb-trip-list > thead > tr > td {
+    background-color: #F5F5F6;
+    border-bottom-width: 1px;
+    vertical-align: middle;
+  }
+  .tb-trip-list > thead > tr > th,
+  .tb-trip-list > tbody > tr > th,
+  .tb-trip-list > tfoot > tr > th,
+  .tb-trip-list > thead > tr > td,
+  .tb-trip-list > tbody > tr > td,
+  .tb-trip-list > tfoot > tr > td {
+    border: 1px solid #e7e7e7;
+  }
+  .tb-trip-list > thead > tr > th {
+    border-bottom: 1px solid #DDDDDD;
+  }
+  .tb-trip-list > thead > tr > th,
+  .tb-trip-list > tbody > tr > th,
+  .tb-trip-list > tfoot > tr > th,
+  .tb-trip-list > thead > tr > td,
+  .tb-trip-list > tbody > tr > td,
+  .tb-trip-list > tfoot > tr > td {
+    border-top: 1px solid #e7eaec;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: middle;
+    border-left: hidden;
+  }
+
+  .box-panel-trip-list{
+    overflow-y: scroll;
+  }
+
+  .list-scrollbar {
+    position: relative;
+    overflow: auto;
+    --heightA: calc(151vh - 6px);
+    --heightB: calc(var(--heightA) / 1.66);
+    --heightC: calc(var(--heightB) - 230px);
+    height: var(--heightC);
+    min-height: 295px;
+  }
+
+
+  .scrollbar-custom::-webkit-scrollbar-track
+  {
+    box-shadow: inset 0 0 3px rgb(0 0 0 / 30%);
+    background-color: #ffffff;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar
+  {
+    width: 6px;
+    background-color: #F5F5F5;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb
+  {
+    background-color: #c2c2c2;
+  }
+
+
+.list-scrollbar-2 {
+  position: relative;
+  overflow: auto;
+  --heightA: calc(100vh - 55px);
+  --heightB: calc(var(--heightA) * (1/2) - 30px);
+  height: var(--heightB);
+}
+
+@media (max-width: 992px) {
+  .list-scrollbar-2 {
+    height: 300px;
+  }
+}
+
+
+.box-panel-trip-list-2{
+  overflow-y: auto;
+  /* box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px; */
+}
+
+.scrollbar-custom-2::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 3px rgb(0 0 0 / 30%);
+  background-color: #ffffff;
+}
+
+.scrollbar-custom-2::-webkit-scrollbar
+{
+  width: 6px;
+  height: 8px;
+  background-color: #F5F5F5;
+}
+
+.scrollbar-custom-2::-webkit-scrollbar-thumb
+{
+  background-color: #c2c2c2;
+}

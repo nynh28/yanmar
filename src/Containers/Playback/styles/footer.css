@@ -1,0 +1,124 @@
+.footer-header-setting{
+  background-color: white;
+  width: 100%;
+  min-height: 30px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 3px
+}
+
+.bar-tools {
+  padding: 7px;
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  height: 44px;
+}
+
+.bar-tools-right-setting{
+  float: right;
+}
+
+.footer-panel-bar-chart {
+  padding: 7px;
+  --heightA: calc(100vh - 55px);
+  --heightB: calc(var(--heightA) * (2/6));
+  --heightC: calc(var(--heightB) - 49px);
+  height: var(--heightC);
+  overflow: auto
+}
+
+@media (min-height: 650px) {
+  .footer-panel-bar-chart {
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (2/7));
+    --heightC: calc(var(--heightB) - 49px);
+    height: var(--heightC);
+  }
+}
+@media (max-width: 992px) {
+  .footer-panel-bar-chart{
+    height: 250px;
+  }
+}
+
+.btn-undo, .btn-setting{
+   color: inherit;
+   background: white;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+.btn-play{
+   color: inherit;
+   background: white;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+/*
+ .pop-header {
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 5px 0px 0px 10px;
+  min-height: 40px;
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 2px;
+}
+
+.pop-header:hover {
+  background-color: #f2f2f2;
+}
+
+.pop-header-right {
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+  position: relative;
+  padding: 0;
+} */
+
+/* .pop-list {
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 5px 0px 0px 10px;
+  min-height: 40px;
+  cursor: pointer;
+}
+
+.pop-list:hover {
+  background-color: #f2f2f2;
+} */
+
+/* .pop-setting-main{
+  min-width: 34px !important;
+  left: 1715px !important;
+  top: 680px !important;
+}
+
+ .pop-setting-chart{
+  min-width: 34px !important;
+  left: 1695px !important;
+  top: 400px !important;
+}
+
+.pop-setting-speed{
+  min-width: 34px !important;
+  left: 1715px !important;
+  top: 480px !important;
+} */
+
+
+/* .pop-footer {
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  min-height: 40px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 2px;
+  padding-top: 5px;
+}
+
+.pop-footer:hover {
+  background-color: #f2f2f2;
+} */
+

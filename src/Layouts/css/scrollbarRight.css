@@ -1,0 +1,22 @@
+/* .myscroll-sidebar1 {
+    height: 100vh;
+    position: fixed !important;
+    background-color: 	#353C42;
+  } */
+  
+  .myscroll-sidebarRight1 {
+    /* background-color: 	#353C42;
+    position: relative;
+    overflow-y: scroll; 
+    width: auto; 
+    height: 100%; */
+    -ms-overflow-style: none;
+    /* 1. Suggestion for Firefox */
+    /* overflow: -moz-hidden-unscrollable;  */
+    /* 2. form website from firefox */
+    overflow: -moz-scrollbars-none;
+  }
+  /* 3. hide scrollbar in Safari & Chrome */
+  .myscroll-sidebarRight1::-webkit-scrollbar {
+    display: none
+  }

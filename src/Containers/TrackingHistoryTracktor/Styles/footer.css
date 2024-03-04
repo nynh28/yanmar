@@ -1,0 +1,154 @@
+.bar-tools-track {
+    border-width: 4px 0px 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding:5px 0px 0px 10px;
+    min-height: 40px;
+}
+
+.bar-tools-buttom {
+    border-width: 4px 0px 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 5px 0px 0px 10px;
+    min-height: 30px;
+}
+
+.bar-tools > span {
+  font-size: 11px;
+  /* padding-left: 10px; */
+  padding-right: 10px;
+}
+
+  .footer-header-setting{
+    background-color: white;
+    width: 100%;
+    min-height: 30px;
+     box-shadow: rgb(0 0 0 / 30%) 0px 0px 3px
+  }
+
+  .footer-header-setting .bar-tools{
+      padding: 7px;
+  }
+
+  .footer-header-legend{
+    background-color: white;
+    width: 100%;
+    min-height: 30px;
+  }
+
+  .footer-header-legend .bar-tools-track{
+    margin-top: 2px;
+    padding:  0px 10px 0px 20px;
+  }
+
+  .footer-panel-chart {
+      /* padding:  0px ​10px 10px 10px;
+      margin:  0px 10px 0px 20px; */
+      padding: 5px;
+  }
+
+  .span-legend{
+    margin-left:  5px;
+    font-size:  12;
+    padding-right: 20;
+  }
+
+  .btn-undo, .btn-setting{
+     color: inherit;
+     background: white;
+     padding-right: 10px;
+     padding-left: 10px;
+  }
+
+  .btn-option{
+    color: inherit;
+    background: white;
+    padding-right: 10px;
+    padding-left: 6px;
+ }
+
+
+
+  .btn-play{
+     color: inherit;
+     background: white;
+     padding-right: 10px;
+     padding-left: 10px;
+  }
+
+  .bar-tools-right-setting{
+    margin-right: 10px;
+  }
+
+
+ .pop-header {
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 5px 5px;
+  /* padding: 5px 0px 0px 10px; */
+  min-height: 40px;
+  /* cursor: pointer; */
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 2px;
+}
+
+/* .pop-header:hover {
+  background-color: #f2f2f2;
+} */
+
+.pop-header-right {
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+  position: relative;
+  padding: 0;
+}
+
+.pop-list {
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 5px 0px 0px 10px;
+  min-height: 40px;
+  cursor: pointer;
+}
+
+.pop-list:hover {
+  background-color: #f2f2f2;
+}
+
+/* .pop-setting-main{
+  min-width: 34px !important;
+  left: 1715px !important;
+  top: 680px !important;
+}
+
+ .pop-setting-chart{
+  min-width: 34px !important;
+  left: 1695px !important;
+  top: 400px !important;
+}
+
+.pop-setting-speed{
+  min-width: 34px !important;
+  left: 1715px !important;
+  top: 480px !important;
+} */
+
+
+.pop-footer {
+  border-width: 4px 0px 0;
+  color: inherit;
+  margin-bottom: 0;
+  min-height: 40px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 2px;
+  padding-top: 5px;
+}
+
+.pop-footer:hover {
+  background-color: #f2f2f2;
+}
+

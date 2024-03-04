@@ -1,0 +1,122 @@
+
+.header-fixed {
+    overflow-y: auto;
+     height: 100px;
+    }
+
+ .header-fixed thead th {
+      position: sticky; top: 0;
+     }
+
+.tb-trip-list {
+    border: 1px solid #EBEBEB;
+  }
+  .tb-trip-list > thead > tr > th,
+  .tb-trip-list > thead > tr > td {
+    background-color: #F5F5F6;
+    border-bottom-width: 1px;
+    vertical-align: middle;
+  }
+  .tb-trip-list > thead > tr > th,
+  .tb-trip-list > tbody > tr > th,
+  .tb-trip-list > tfoot > tr > th,
+  .tb-trip-list > thead > tr > td,
+  .tb-trip-list > tbody > tr > td,
+  .tb-trip-list > tfoot > tr > td {
+    border: 1px solid #e7e7e7;
+  }
+  .tb-trip-list > thead > tr > th {
+    border-bottom: 1px solid #DDDDDD;
+  }
+  .tb-trip-list > thead > tr > th,
+  .tb-trip-list > tbody > tr > th,
+  .tb-trip-list > tfoot > tr > th,
+  .tb-trip-list > thead > tr > td,
+  .tb-trip-list > tbody > tr > td,
+  .tb-trip-list > tfoot > tr > td {
+    border-top: 1px solid #e7eaec;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: middle;
+    border-left: hidden;
+  }
+
+  .box-panel-trip-list{
+    overflow-y: scroll;
+  }
+
+ #panel-box-history .ant-tabs-nav {
+  margin-bottom: 0px;
+ }
+
+  .list-history-scrollbar{
+    position: relative;
+    overflow: auto;
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) - 103px);
+    height: var(--heightB);
+  }
+  .large-chart .list-history-scrollbar{
+    /* --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (5/10));
+    --heightC: calc(var(--heightB) - 103px);
+    height: var(--heightC); */
+  }
+  .middle-chart .list-history-scrollbar{
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (5/10));
+    --heightC: calc(var(--heightB) - 103px);
+    height: var(--heightC);
+  }
+  .small-chart .list-history-scrollbar{
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (6/10));
+    --heightC: calc(var(--heightB) - 103px);
+    height: var(--heightC);
+  }
+  /* .small-chart .list-history-scrollbar{
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (7/10));
+    --heightC: calc(var(--heightB) - 103px);
+    height: var(--heightC);
+  } */
+
+  /* .scrollbar-custom {
+    scrollbar-width: thin;
+  } */
+  .list-history-scrollbar .ant-collapse-borderless{
+    width: calc(460px - 12px);
+  }
+
+  .panel-image{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .site-collapse-custom-panel .ant-collapse-content > .ant-collapse-content-box {
+    padding: 4px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track
+  {
+    box-shadow: inset 0 0 3px rgb(0 0 0 / 30%);
+    background-color: #ffffff;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar
+  {
+    width: 12px;
+    background-color: #F5F5F5;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb
+  {
+    background-color: #c2c2c2;
+  }
+
+  #panel-box-history .ant-tabs-nav, #panel-box-history .ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar {
+    margin-bottom: 0px;
+   }

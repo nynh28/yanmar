@@ -1,0 +1,137 @@
+.options {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+  position: relative;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+.checkboxes-mode {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.option > .dx-selectbox {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.option > span {
+  margin-right: 10px;
+}
+
+
+.table-control-room .dx-widget.dx-visibility-change-handler {
+   max-width: 100% !important;
+}
+
+.table-control-room .dx-datagrid-rowsview .dx-row.dx-column-lines > td {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-top: 1px solid rgb(230, 230, 230);
+    border-left: 0px;
+     border-right: 0px;
+}
+
+.table-control-room .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td, .table-control-room .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > tr > td, .table-control-room .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover > td, .table-control-room .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover > tr > td {
+    background-color: rgba(47, 219, 24, 0);
+    color: rgb(51, 51, 51);
+}
+
+.table-control-room .dx-datagrid-rowsview .dx-selection.dx-row > td,.table-control-room .dx-datagrid-rowsview .dx-selection.dx-row:hover  > td{
+    background-color: rgba(47, 219, 24, 0);
+    color: rgb(51, 51, 51);
+}
+
+
+.table-control-room .dx-datagrid-rowsview .dx-selection-row.dx-row:not(.dx-row-focused) > td,
+.table-control-room .dx-datagrid-rowsview .dx-selection-row.dx-row:not(.dx-row-focused) > tr > td,
+.table-control-room .dx-datagrid-rowsview .dx-selection-row.dx-row:not(.dx-row-focused):hover > td,
+.table-control-room .dx-datagrid-rowsview .dx-selection-row.dx-row:not(.dx-row-focused):hover > tr > td{
+    background-color: rgb(230, 230, 230) !important;
+    color: rgb(51, 51, 51) !important;
+}
+
+.table-control-room .dx-command-select {
+  width: 30px !important;
+  min-width: 30px !important;
+}
+
+.table-control-room .dx-datagrid-search-panel {
+  margin: 0px !important;
+}
+.table-control-room .dx-datagrid-content .dx-datagrid-table .dx-row.dx-column-lines .dx-command-expand.dx-datagrid-group-space {
+  width: 6px !important;
+  min-width: 6px !important;
+}
+/* .table-control-room .dx-datagrid-content .dx-datagrid-table .dx-row.dx-group-row .dx-command-expand.dx-datagrid-group-space {
+  width: 30px !important;
+  min-width: 30px !important;
+} */
+/* class="dx-command-expand dx-datagrid-group-space dx-datagrid-expand dx-selection-disabled" */
+
+#row-header > tr > td {
+  /* border-collapse:collapse */
+  border: 0px solid;
+}
+
+.table-control-room .dx-datagrid-rowsview .dx-row > td, .table-control-room .dx-datagrid-rowsview .dx-row > tr > td {
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.box-overlay-panel-control-room{
+  position: absolute;
+  z-index: 1;
+  min-height: 500px;
+  height: calc(100vh - 291px);
+  top: 15px;
+  right: 0px;
+  flex-direction: row;
+  display: flex;
+  z-index: 2;
+}
+
+.detail-overlay-control-room{
+  min-width: 450px;
+  /* min-height: 490px;
+  height: calc(100vh - 295px); */
+  width:  450px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+}
+
+.scroll{
+overflow: auto;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+  position: relative;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

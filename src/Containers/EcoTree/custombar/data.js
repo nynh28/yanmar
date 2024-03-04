@@ -1,0 +1,96 @@
+export const temperaturesData = [{
+  "day": 1,
+  "value": 108
+}, {
+  "day": 2,
+  "value": 100
+}, {
+  "day": 3,
+  "value": 116
+}, {
+  "day": 4,
+  "value": 108
+}, {
+  "day": 5,
+  "value": 108
+}, {
+  "day": 6,
+  "value": 108
+}, {
+  "day": 7,
+  "value": 90
+}, {
+  "day": 8,
+  "value": 118
+}, {
+  "day": 9,
+  "value": 80
+}, {
+  "day": 10,
+  "value": 108
+}, {
+  "day": 11,
+  "value": 88
+}, {
+  "day": 12,
+  "value": 118
+}, {
+  "day": 13,
+  "value": 98
+}, {
+  "day": 14,
+  "value": 70
+}, {
+  "day": 15,
+  "value": 138
+}, {
+  "day": 16,
+  "value": 106
+}, {
+  "day": 17,
+  "value": 110
+}, {
+  "day": 18,
+  "value": 108
+}, {
+  "day": 19,
+  "value": 108
+}, {
+  "day": 20,
+  "value": 108
+}, {
+  "day": 21,
+  "value": 30
+}, {
+  "day": 22,
+  "value": 70
+}, {
+  "day": 23,
+  "value": 138
+}, {
+  "day": 24,
+  "value": 100
+}, {
+  "day": 25,
+  "value": 70
+}, {
+  "day": 26,
+  "value": 116
+}, {
+  "day": 27,
+  "value": 118
+}, {
+  "day": 28,
+  "value": 98
+}, {
+  "day": 29,
+  "value": 108
+}, {
+  "day": 30,
+  "value": 50
+}, {
+  "day": 31,
+  "value": 158
+}];
+  
+  

@@ -1,0 +1,35 @@
+.gm-style .gm-style-iw-c {
+  box-shadow: 0px 1px 6px rgba(199, 199, 199, 0.2) !important;
+}
+
+/*
+.table-info-window tbody tr td,
+.table-info-window thead tr th
+ {
+  border: none
+}
+ */
+/*
+.table-info-window td:nth-child(1)
+{
+  width: 100px;
+  vertical-align: top
+} */
+
+/*
+.table-info-window td:nth-child(2)
+{
+  width: 160px;
+} */
+
+
+.dialog-image {
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  left: 20%;
+  top: 10%;
+}
+
+/* .image-info {
+  width: 300px;
+} */

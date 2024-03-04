@@ -1,0 +1,98 @@
+.printreport {
+}
+
+.a4-portrait-with-diver-other-report {
+  background-color: white;
+  background-size: 297mm 209.76mm !important;
+  position: relative !important;
+  margin: 0px !important;
+  width: 297mm !important;
+  height: 209.76mm !important;
+}
+
+.printreport h6 {
+  margin-bottom: 0.5em;
+}
+
+@media print {
+  /* @page {
+    size: A4 landscape;
+    margin: 0 !important;
+  } */
+
+  html,
+  body {
+    background-color: white !important;
+    background-image: none;
+    color: #000000;
+    margin: 0px !important;
+    color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  /* #daily-report,
+  #daily-report * {
+    size: A4 landscape;
+    margin: 0 !important;
+  } */
+
+  #time-trip,
+  #time-trip * {
+    display: flex;
+    justify-content: center;
+  }
+
+  #safety,
+  #safety * {
+    background-color: #1c84c6 !important;
+    color: white !important;
+  }
+
+  #eco,
+  #eco * {
+    background-color: #1ab394 !important;
+    color: white !important;
+  }
+
+  #timeline-chart1,
+  #timeline-chart1 * {
+    margin-left: -1px;
+  }
+
+  #percent,
+  #percent * {
+    margin-top: 2px;
+  }
+
+  #driver-comment,
+  #driver-comment * {
+    background-color: #bcc4c1 !important;
+  }
+
+  #temp-sensor-1,
+  #temp-sensor-1 * {
+    color: #9b5fe1 !important;
+  }
+
+  #temp-sensor-2,
+  #temp-sensor-2 * {
+    color: #ec6f6d !important;
+  }
+
+  #temp-sensor-3,
+  #temp-sensor-3 * {
+    color: #578aef !important;
+  }
+
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+    background-color: white !important;
+  }
+}

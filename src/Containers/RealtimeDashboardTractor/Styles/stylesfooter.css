@@ -1,0 +1,204 @@
+/* .col-1 {
+    width: 50;
+    height: 185px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(212, 208, 208);
+
+
+  }
+  .col-2 {
+    width: 50;
+    height: 185px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(212, 208, 208);
+  }
+  .col-3 {
+    width: 50;
+    height: 185px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(212, 208, 208);
+  }
+  .col-4 {
+    width: 50;
+    height: 185px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(212, 208, 208);
+  }
+  .col-5 {
+    width: 50;
+    height: 185px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(212, 208, 208);
+  }
+  .col-6 {
+    width: 50;
+    height: 185px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(212, 208, 208);
+  }
+
+  .col-7 {
+    width: 50;
+    height: 185px;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(212, 208, 208);
+  } */
+
+
+  .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: footer; }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main main main'
+      'menu footer footer footer footer footer';
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+
+  .arrow-scroll{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    height: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 80px;
+
+  }
+
+  .scrollfooter{
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .scrollfooter::-webkit-scrollbar {
+      width: 0px !important;
+      height: 10px !important;
+      position: relative !important;
+      width:100%;
+  }
+
+  /* Track */
+  .scrollfooter::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+
+  /* Handle */
+  .scrollfooter::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  .scrollfooter::-webkit-scrollbar-thumb:hover {
+      background: #555;
+  }
+
+.table-tan{
+  padding: 5px 10px;
+}
+.table-tan table,  .table-tan thead, .table-tan th, .table-tan td {
+  border: 0px solid black !important;
+  padding: 0px 5px;
+}
+
+.table-tan .border-right-sensor {
+  border-right: 1px solid #e7eaec !important;
+  /* padding-right: 5px; */
+}
+.table-tan .border-left-sensor {
+  border-left: 1px solid #e7eaec !important;
+  /* padding-left: 5px; */
+}
+.table-tan .table-sensor-dynamic {
+  border-left: 1px solid #e7eaec !important;
+  padding-left: 0px;
+}
+.table-tan th {
+/* .table-tan .table-sensor-dynamic th { */
+  white-space: nowrap;
+  /* width: 50px;  */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* table.sensor-dynamic {
+  height: 100%;
+  empty-cells: show;
+
+} */
+
+#footer-info{
+  /* background-color: yellowgreen; */
+  z-Index : 10000000 !important;
+}
+
+
+#bt_history.ant-btn:hover, #bt_history.ant-btn:focus{
+  background-color: #c8c8c8;
+  color: rgb(65, 65, 65);
+  border-color: rgb(167, 167, 167);
+}
+
+.botton-explan{
+  background-color: rgba(255, 255, 255);
+  opacity: 0.3;
+  border: 0px;
+  height: 32px;
+}
+.botton-explan:hover{
+  opacity: 0.8;
+  -webkit-box-shadow: 2px 2px 5px 0px #0000005e;
+  box-shadow: 2px 2px 5px 0px #0000005e;
+  transition: 0.3s;
+}
+.botton-explan:focus{
+  border: 0px solid black;
+  outline: #ffffff solid 0px;
+}
+.botton-explan:active{
+  -webkit-box-shadow: inset 1px 1px 5px 1px #0000005e, 2px 2px 5px 0px #0000005e;
+  box-shadow: inset 1px 1px 5px 1px #0000005e, 2px 2px 5px 0px #0000005e;
+}
+.botton-explan > img{
+  width: 20px;
+  height: 20px;
+  opacity: 0.65;
+}
+
+
+.button-slide-horizontal{
+  height: 100%;
+  background-color: white;
+  border: 0.5px solid #e7eaec;
+}
+.button-slide-horizontal.footer-scroll{
+  position: absolute;
+  z-index: 2;
+  height: 200px;
+}
+.button-slide-horizontal:focus{
+  outline: #ffffff solid 0px;
+}
+.button-slide-horizontal:active{
+  -webkit-box-shadow: inset 1px 1px 5px 1px #0000005e;
+  box-shadow: inset 1px 1px 3px 1px #0000005e;
+}

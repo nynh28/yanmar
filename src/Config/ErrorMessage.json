@@ -1,0 +1,664 @@
+{
+    "errorMessage": [
+        {
+            "key": 401,
+            "en": "TOKEN_INVALID",
+            "th": "TOKEN_INVALID",
+            "jp": "TOKEN_INVALID"
+        },
+        {
+            "key": 429,
+            "en": "LIMIT_EXCEEDED",
+            "th": "LIMIT_EXCEEDED",
+            "jp": "LIMIT_EXCEEDED"
+        },
+        {
+            "key": 450,
+            "en": "USER_EXIST",
+            "th": "USER_EXIST",
+            "jp": "USER_EXIST"
+        },
+        {
+            "key": 451,
+            "en": "EMAIL_EXIST",
+            "th": "EMAIL_EXIST",
+            "jp": "EMAIL_EXIST"
+        },
+        {
+            "key": 452,
+            "en": "MOBILE_EXIST",
+            "th": "MOBILE_EXIST",
+            "jp": "MOBILE_EXIST"
+        },
+        {
+            "key": 453,
+            "en": "INVALID_PASSWORD",
+            "th": "INVALID_PASSWORD",
+            "jp": "INVALID_PASSWORD"
+        },
+        {
+            "key": 500,
+            "en": "INTERNAL_SERVER_ERROR",
+            "th": "INTERNAL_SERVER_ERROR",
+            "jp": "INTERNAL_SERVER_ERROR"
+        },
+        {
+            "key": 980,
+            "en": "FORBIDDEN_DEALER",
+            "th": "FORBIDDEN_DEALER",
+            "jp": "FORBIDDEN_DEALER"
+        },
+        {
+            "key": 981,
+            "en": "FORBIDDEN_CUSTOMER",
+            "th": "FORBIDDEN_CUSTOMER",
+            "jp": "FORBIDDEN_CUSTOMER"
+        },
+        {
+            "key": 982,
+            "en": "FORBIDDEN_PARTNER",
+            "th": "FORBIDDEN_PARTNER",
+            "jp": "FORBIDDEN_PARTNER"
+        },
+        {
+            "key": 983,
+            "en": "FORBIDDEN_FLEET",
+            "th": "FORBIDDEN_FLEET",
+            "jp": "FORBIDDEN_FLEET"
+        },
+        {
+            "key": 984,
+            "en": "FORBIDDEN_VEHICLE",
+            "th": "FORBIDDEN_VEHICLE",
+            "jp": "FORBIDDEN_VEHICLE"
+        },
+        {
+            "key": 985,
+            "en": "FORBIDDEN_USER_LEVEL",
+            "th": "FORBIDDEN_USER_LEVEL",
+            "jp": "FORBIDDEN_USER_LEVEL"
+        },
+        {
+            "key": 990,
+            "en": "INVALID_RESOURCE_TYPE",
+            "th": "INVALID_RESOURCE_TYPE",
+            "jp": "INVALID_RESOURCE_TYPE"
+        },
+        {
+            "key": 991,
+            "en": "INVALID_USER_LEVEL",
+            "th": "INVALID_USER_LEVEL",
+            "jp": "INVALID_USER_LEVEL"
+        },
+        {
+            "key": 999,
+            "en": "NOT_IMPLEMENTATION",
+            "th": "NOT_IMPLEMENTATION",
+            "jp": "NOT_IMPLEMENTATION"
+        },
+        {
+            "key": 55555,
+            "en": "This Error Mesage {1} and {2}",
+            "th": "เออเร่อ {1} and {2}",
+            "jp": "This Error Mesage JP {1} and {2}"
+        },
+        {
+            "key": 100409,
+            "en": "Wrong Default Language",
+            "th": "Wrong Default Language",
+            "jp": "Wrong Default Language"
+        },
+        {
+            "key": 109401,
+            "en": "TOKEN_INVALID",
+            "th": "TOKEN_INVALID",
+            "jp": "TOKEN_INVALID"
+        },
+        {
+            "key": 109980,
+            "en": "FORBIDDEN_DEALER",
+            "th": "FORBIDDEN_DEALER",
+            "jp": "FORBIDDEN_DEALER"
+        },
+        {
+            "key": 109981,
+            "en": "FORBIDDEN_CUSTOMER",
+            "th": "FORBIDDEN_CUSTOMER",
+            "jp": "FORBIDDEN_CUSTOMER"
+        },
+        {
+            "key": 109982,
+            "en": "FORBIDDEN_PARTNER",
+            "th": "FORBIDDEN_PARTNER",
+            "jp": "FORBIDDEN_PARTNER"
+        },
+        {
+            "key": 109990,
+            "en": "INVALID_RESOURCE_TYPE",
+            "th": "INVALID_RESOURCE_TYPE",
+            "jp": "INVALID_RESOURCE_TYPE"
+        },
+        {
+            "key": 104201,
+            "en": "SUBSCRIPTION_ITEM_NOT_EXISTING",
+            "th": "SUBSCRIPTION_ITEM_NOT_EXISTING",
+            "jp": "SUBSCRIPTION_ITEM_NOT_EXISTING"
+        },
+        {
+            "key": 104301,
+            "en": "SUBSCRIPTION_ITEM_ATTACHMENT_NOT_EXISTING",
+            "th": "SUBSCRIPTION_ITEM_ATTACHMENT_NOT_EXISTING",
+            "jp": "SUBSCRIPTION_ITEM_ATTACHMENT_NOT_EXISTING"
+        },
+        {
+            "key": 104401,
+            "en": "SUBSCRIPTION_ITEM_ATTACHMENT_TYPE_NOT_EXISTING",
+            "th": "SUBSCRIPTION_ITEM_ATTACHMENT_TYPE_NOT_EXISTING",
+            "jp": "SUBSCRIPTION_ITEM_ATTACHMENT_TYPE_NOT_EXISTING"
+        },
+        {
+            "key": 104901,
+            "en": "AIRTIME_NOT_EXISTING",
+            "th": "AIRTIME_NOT_EXISTING",
+            "jp": "AIRTIME_NOT_EXISTING"
+        },
+        {
+            "key": 104701,
+            "en": "DEALER_NOT_EXISTING",
+            "th": "DEALER_NOT_EXISTING",
+            "jp": "DEALER_NOT_EXISTING"
+        },
+        {
+            "key": 104104,
+            "en": "PARTNER_CUSTOMER_EXIST",
+            "th": "PARTNER_CUSTOMER_EXIST",
+            "jp": "PARTNER_CUSTOMER_EXIST"
+        },
+        {
+            "key": 100101,
+            "en": "User not found, Call service at 02-106-5308",
+            "th": "ไม่พบข้อมูลผู้ใช้, ติดต่อบริการที่ 02-106-5308",
+            "jp": "User not found, Call service at 02-106-5308"
+        },
+        {
+            "key": 100102,
+            "en": "Canceled user, Call service at 02-106-5308",
+            "th": "ชื่อผู้ใช้ถูกยกเลิก, ติดต่อบริการที่ 02-106-5308",
+            "jp": "Canceled user, Call service at 02-106-5308"
+        },
+        {
+            "key": 100103,
+            "en": "Usage expired, Call service at 02-106-5308",
+            "th": "หมดเวลาใช้งาน, ติดต่อบริการที่ 02-106-5308",
+            "jp": "Usage expired, Call service at 02-106-5308"
+        },
+        {
+            "key": 100104,
+            "en": "User is locked, Call service at 02-106-5308",
+            "th": "ผู้ใช้ถูกระงับการใช้, ติดต่อบริการที่ 02-106-5308",
+            "jp": "User is locked, Call service at 02-106-5308"
+        },
+        {
+            "key": 100106,
+            "en": "Invalid username or password, Call service at 02-106-5308",
+            "th": "ข้อมูลการเข้าระบบไม่ถูกต้อง, ติดต่อบริการที่ 02-106-5308",
+            "jp": "Invalid username or password, Call service at 02-106-5308"
+        },
+        {
+            "key": 100107,
+            "en": "User's access over the limit, Call service at 02-106-5308",
+            "th": "ผู้ใช้เข้าระบบเกินข้อจำกัด, ติดต่อบริการที่ 02-106-5308",
+            "jp": "User's access over the limit, Call service at 02-106-5308"
+        },
+        {
+            "key": 100108,
+            "en": "USER_NEED_CHANGE_PASSWORD, Found problem please contact 02-106-5308",
+            "th": "USER_NEED_CHANGE_PASSWORD, พบปัญหา โปรดติดต่อ 02-106-5308",
+            "jp": "USER_NEED_CHANGE_PASSWORD, Found problem please contact 02-106-5308"
+        },
+        {
+            "key": 100109,
+            "en": "Password expired, Call service at 02-106-5308",
+            "th": "รหัสผ่านหมดอายุ, ติดต่อบริการที่ 02-106-5308",
+            "jp": "Password expired, Call service at 02-106-5308"
+        },
+        {
+            "key": 100110,
+            "en": "Invalid application",
+            "th": "แอปพลิเคชันไม่ถูกต้อง",
+            "jp": "Invalid application"
+        },
+        {
+            "key": 100111,
+            "en": "Password against the policy",
+            "th": "รหัสผ่านไม่เป็นไปตามกฎ",
+            "jp": "Password against the policy"
+        },
+        {
+            "key": 100112,
+            "en": "Recipient does not match registered",
+            "th": "ข้อมูลผู้รับไม่ตรงกับที่ลงทะเบียน",
+            "jp": "Recipient does not match registered"
+        },
+        {
+            "key": 100113,
+            "en": "Authentication server returns invalid code",
+            "th": "Authentication server ส่งรหัสไม่ถูกต้อง",
+            "jp": "Authentication server returns invalid code"
+        },
+        {
+            "key": 100114,
+            "en": "Authentication server cannot set password",
+            "th": "Authentication server ไม่สามารถกำหนดรหัสผ่าน",
+            "jp": "Authentication server cannot set password"
+        },
+        {
+            "key": 100115,
+            "en": "User agreement not found",
+            "th": "ไม่พบข้อตกลงและเงื่อนไขการใช้บริการ",
+            "jp": "User agreement not found"
+        },
+        {
+            "key": 100116,
+            "en": "User is in force change password state, please call service to reset password",
+            "th": "ผู้ใช้อยู่ในสถานะบังคับเปลี่ยนรหัสผ่าน โปรดติดต่อบริการที่ 02-106-5308 เพื่อรีเซ็ตรหัสผ่าน",
+            "jp": "User is in force change password state, please call service to reset password"
+        },
+        {
+            "key": 100117,
+            "en": "Authentication server returns invalid status",
+            "th": "Authentication server ส่งสถานะไม่ถูกต้อง",
+            "jp": "Authentication server returns invalid status"
+        },
+        {
+            "key": 100118,
+            "en": "Authentication server does not contain user data",
+            "th": "Authentication server ไม่พบข้อมูลผู้ใช้",
+            "jp": "Authentication server does not contain user data"
+        },
+        {
+            "key": 100429,
+            "en": "LIMIT_EXCEEDED",
+            "th": "LIMIT_EXCEEDED",
+            "jp": "LIMIT_EXCEEDED"
+        },
+        {
+            "key": 101101,
+            "en": "Invalid allocation",
+            "th": "การโอนย้ายรถไม่ถูกต้อง",
+            "jp": "Invalid allocation"
+        },
+        {
+            "key": 101102,
+            "en": "Vehicle not found or deleted",
+            "th": "ไม่พบข้อมูลรถหรือถูกลบไป",
+            "jp": "Vehicle not found or deleted"
+        },
+        {
+            "key": 101103,
+            "en": "GPS device not found",
+            "th": "ไม่พบข้อมูลอุปกรณ์ GPS",
+            "jp": "GPS device not found"
+        },
+        {
+            "key": 101104,
+            "en": "Vehicle already existed",
+            "th": "มีข้อมูลรถคันนี้แล้ว",
+            "jp": "Vehicle already existed"
+        },
+        {
+            "key": 101107,
+            "en": "Invalid option group",
+            "th": "ชื่อกลุ่มตัวเลือกไม่ถูกต้อง",
+            "jp": "Invalid option group"
+        },
+        {
+            "key": 102101,
+            "en": "DRIVER_PROFILE_ACTIVE",
+            "th": "DRIVER_PROFILE_ACTIVE",
+            "jp": "DRIVER_PROFILE_ACTIVE"
+        },
+        {
+            "key": 102102,
+            "en": "DRIVER_PROFILE_INACTIVE",
+            "th": "DRIVER_PROFILE_INACTIVE",
+            "jp": "DRIVER_PROFILE_INACTIVE"
+        },
+        {
+            "key": 102103,
+            "en": "PESONALID_EXIST",
+            "th": "PESONALID_EXIST",
+            "jp": "PESONALID_EXIST"
+        },
+        {
+            "key": 102104,
+            "en": "INVALID_DRIVER_PROFILE",
+            "th": "INVALID_DRIVER_PROFILE",
+            "jp": "INVALID_DRIVER_PROFILE"
+        },
+        {
+            "key": 102105,
+            "en": "INVALID_CUSTOMER",
+            "th": "INVALID_CUSTOMER",
+            "jp": "INVALID_CUSTOMER"
+        },
+        {
+            "key": 102106,
+            "en": "DRIVER_EXIST",
+            "th": "DRIVER_EXIST",
+            "jp": "DRIVER_EXIST"
+        },
+        {
+            "key": 102107,
+            "en": "INVALID_DRIVER",
+            "th": "INVALID_DRIVER",
+            "jp": "INVALID_DRIVER"
+        },
+        {
+            "key": 102453,
+            "en": "INVALID_PASSWORD",
+            "th": "INVALID_PASSWORD",
+            "jp": "INVALID_PASSWORD"
+        },
+        {
+            "key": 103401,
+            "en": "TOKEN_INVALID",
+            "th": "TOKEN_INVALID",
+            "jp": "TOKEN_INVALID"
+        },
+        {
+            "key": 104101,
+            "en": "Subscription not found",
+            "th": "ไม่พบสัญญาการขอใช้บริการ",
+            "jp": "Subscription not found"
+        },
+        {
+            "key": 104102,
+            "en": "Customer not found",
+            "th": "ไม่พบข้อมูลลูกค้า",
+            "jp": "Customer not found"
+        },
+        {
+            "key": 104103,
+            "en": "PARTNER_CUSTOMER_INVALID",
+            "th": "PARTNER_CUSTOMER_INVALID",
+            "jp": "PARTNER_CUSTOMER_INVALID"
+        },
+        {
+            "key": 104105,
+            "en": "Airtime package not found",
+            "th": "ไม่พบข้อมูลแพคเกจราคา",
+            "jp": "Airtime package not found"
+        },
+        {
+            "key": 104106,
+            "en": "Payment customer not found",
+            "th": "ไม่พบข้อมูลลูกค้าผู้ชำระค่าบริการ",
+            "jp": "Payment customer not found"
+        },
+        {
+            "key": 104107,
+            "en": "Subscription status not proper to delete",
+            "th": "สถานะของสัญญาไม่ยอมให้ลบ",
+            "jp": "Subscription status not proper to delete"
+        },
+        {
+            "key": 104108,
+            "en": "Not allow to delete item in finished status",
+            "th": "ไม่สามารถลบข้อมูลที่ทำงานสำเร็จแล้ว",
+            "jp": "Not allow to delete item in finished status"
+        },
+        {
+            "key": 104109,
+            "en": "Not allow duplicate GPS device",
+            "th": "ไม่อนุญาตให้มีอุปกรณ์ GPS ซ้ำกัน",
+            "jp": "Not allow duplicate GPS device"
+        },
+        {
+            "key": 104110,
+            "en": "Vehicle not allocate to this dealer",
+            "th": "รถยังไม่ได้โอนย้ายให้ตัวแทนจำหน่าย",
+            "jp": "Vehicle not allocate to this dealer"
+        },
+        {
+            "key": 104111,
+            "en": "INVALID_SUBSCRIPTION_ITEM_FOR_ADD",
+            "th": "INVALID_SUBSCRIPTION_ITEM_FOR_ADD",
+            "jp": "INVALID_SUBSCRIPTION_ITEM_FOR_ADD"
+        },
+        {
+            "key": 104112,
+            "en": "GPS device not match with airtime package",
+            "th": "อุปกรณ์ GPS ที่เลือกมีแพคเกจราคาไม่ตรงกัน",
+            "jp": "GPS device not match with airtime package"
+        },
+        {
+            "key": 104113,
+            "en": "Dealer not found",
+            "th": "ไม่พบตัวแทนจำหน่าย",
+            "jp": "Dealer not found"
+        },
+        {
+            "key": 106100,
+            "en": "DATA_NOT_FOUND ",
+            "th": "DATA_NOT_FOUND ",
+            "jp": "DATA_NOT_FOUND "
+        },
+        {
+            "key": 106101,
+            "en": "SUB_DUPLICATE ",
+            "th": "SUB_DUPLICATE ",
+            "jp": "SUB_DUPLICATE "
+        },
+        {
+            "key": 106102,
+            "en": "NO_CUSTOMER ",
+            "th": "NO_CUSTOMER ",
+            "jp": "NO_CUSTOMER "
+        },
+        {
+            "key": 106103,
+            "en": "INVALID_GEOFENCE_TYPE ",
+            "th": "INVALID_GEOFENCE_TYPE ",
+            "jp": "INVALID_GEOFENCE_TYPE "
+        },
+        {
+            "key": 106104,
+            "en": "EXIST_ACTIVE_GEOFENCE",
+            "th": "EXIST_ACTIVE_GEOFENCE",
+            "jp": "EXIST_ACTIVE_GEOFENCE"
+        },
+        {
+            "key": 106105,
+            "en": "FORBIDDEN_MANAGE_PARTNER",
+            "th": "FORBIDDEN_MANAGE_PARTNER",
+            "jp": "FORBIDDEN_MANAGE_PARTNER"
+        },
+        {
+            "key": 106106,
+            "en": "INVALID_ICON_SOURCE_TYPE",
+            "th": "INVALID_ICON_SOURCE_TYPE",
+            "jp": "INVALID_ICON_SOURCE_TYPE"
+        },
+        {
+            "key": 107100,
+            "en": "INVALID_PARTNER ",
+            "th": "INVALID_PARTNER ",
+            "jp": "INVALID_PARTNER "
+        },
+        {
+            "key": 107101,
+            "en": "NOPERMISSION_PARTNER ",
+            "th": "NOPERMISSION_PARTNER ",
+            "jp": "NOPERMISSION_PARTNER "
+        },
+        {
+            "key": 107102,
+            "en": "UNOPERMISSION_DEALER ",
+            "th": "UNOPERMISSION_DEALER ",
+            "jp": "UNOPERMISSION_DEALER "
+        },
+        {
+            "key": 107103,
+            "en": "NOPERMISSION_CUSTOMER ",
+            "th": "NOPERMISSION_CUSTOMER ",
+            "jp": "NOPERMISSION_CUSTOMER "
+        },
+        {
+            "key": 107104,
+            "en": "NOPERMISSION_FLEET ",
+            "th": "NOPERMISSION_FLEET ",
+            "jp": "NOPERMISSION_FLEET "
+        },
+        {
+            "key": 107105,
+            "en": "NOPERMISSION_VEHICLE ",
+            "th": "NOPERMISSION_VEHICLE ",
+            "jp": "NOPERMISSION_VEHICLE "
+        },
+        {
+            "key": 107106,
+            "en": "RESOURCE_NOT_FOUND",
+            "th": "RESOURCE_NOT_FOUND",
+            "jp": "RESOURCE_NOT_FOUND"
+        },
+        {
+            "key": 108401,
+            "en": "TOKEN_INVALID",
+            "th": "TOKEN_INVALID",
+            "jp": "TOKEN_INVALID"
+        },
+        {
+            "key": 109101,
+            "en": "User data not found",
+            "th": "ไม่พบข้อมูลผู้ใช้",
+            "jp": "User data not found"
+        },
+        {
+            "key": 109450,
+            "en": "USER_EXIST ",
+            "th": "USER_EXIST ",
+            "jp": "USER_EXIST "
+        },
+        {
+            "key": 109451,
+            "en": "EMAIL_EXIST ",
+            "th": "EMAIL_EXIST ",
+            "jp": "EMAIL_EXIST "
+        },
+        {
+            "key": 109452,
+            "en": "MOBILE_EXIST ",
+            "th": "MOBILE_EXIST ",
+            "jp": "MOBILE_EXIST "
+        },
+        {
+            "key": 109105,
+            "en": "Authentication server reports invalid password",
+            "th": "Authentication server เตือนรหัสผ่านผิดกฎ",
+            "jp": "Authentication server reports invalid password"
+        },
+        {
+            "key": 109106,
+            "en": "Amount of user exceeded the limit",
+            "th": "จำนวนผู้ใช้เกินที่กำหนดให้",
+            "jp": "Amount of user exceeded the limit"
+        },
+        {
+            "key": 109107,
+            "en": "FORBIDDEN_PARTNER_LEVEL",
+            "th": "FORBIDDEN_PARTNER_LEVEL",
+            "jp": "FORBIDDEN_PARTNER_LEVEL"
+        },
+        {
+            "key": 109108,
+            "en": "User level not allow to create",
+            "th": "ระดับผู้ใช้ไม่รองรับการสร้าง",
+            "jp": "User level not allow to create"
+        },
+        {
+            "key": 109109,
+            "en": "Role is required",
+            "th": "ต้องระบุบทบาท",
+            "jp": "Role is required"
+        },
+        {
+            "key": 109110,
+            "en": "Invalid role",
+            "th": "บทบาทไม่ถูกต้อง",
+            "jp": "Invalid role"
+        },
+        {
+            "key": 109111,
+            "en": "INVALID_PARTNER_OF_USER",
+            "th": "INVALID_PARTNER_OF_USER",
+            "jp": "INVALID_PARTNER_OF_USER"
+        },
+        {
+            "key": 109112,
+            "en": "No permission to manage data",
+            "th": "ไม่มีสิทธิจัดการข้อมูล",
+            "jp": "No permission to manage data"
+        },
+        {
+            "key": 109113,
+            "en": "No permission to manage data",
+            "th": "ไม่มีสิทธิจัดการข้อมูล",
+            "jp": "No permission to manage data"
+        },
+        {
+            "key": 109114,
+            "en": "No permission to do this action",
+            "th": "ไม่มีสิทธิดำเนินการ",
+            "jp": "No permission to do this action"
+        },
+        {
+            "key": 109115,
+            "en": "Invalid role",
+            "th": "บทบาทไม่ถูกต้อง",
+            "jp": "Invalid role"
+        },
+        {
+            "key": 109116,
+            "en": "No permission to view data",
+            "th": "ไม่มีสิทธิดูข้อมูล",
+            "jp": "No permission to view data"
+        },
+        {
+            "key": 109117,
+            "en": "User not found or deleted",
+            "th": "ไม่พบข้อมูลผู้ใช้หรือถูกลบไป",
+            "jp": "User not found or deleted"
+        },
+        {
+            "key": 109118,
+            "en": "Cannot delete user of this level",
+            "th": "ไม่สามารถลบผู้ใช้ในระดับนี้",
+            "jp": "Cannot delete user of this level"
+        },
+        {
+            "key": 110100,
+            "en": "INVALID_DEALER_CODE",
+            "th": "INVALID_DEALER_CODE",
+            "jp": "INVALID_DEALER_CODE"
+        },
+        {
+            "key": 110101,
+            "en": "DEALER_EXIST",
+            "th": "DEALER_EXIST",
+            "jp": "DEALER_EXIST"
+        },
+        {
+            "key": 111100,
+            "en": "INVALID_USER_NAME",
+            "th": "INVALID_USER_NAME",
+            "jp": "INVALID_USER_NAME"
+        },
+        {
+            "key": 112401,
+            "en": "TOKEN_INVALID",
+            "th": "TOKEN_INVALID",
+            "jp": "TOKEN_INVALID"
+        }
+    ]
+}

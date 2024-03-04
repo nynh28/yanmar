@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/css/plugins/dropzone/basic.css
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\css\plugins\dropzone\basic.css
+Content Type: text/css

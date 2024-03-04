@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/js/plugins/jsKnob/jquery.knob.js
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\js\plugins\jsKnob\jquery.js
+Content Type: application/javascript

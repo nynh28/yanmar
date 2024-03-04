@@ -1,0 +1,9 @@
+.setting-info-window > i{
+  margin-right: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #337ab7;
+}
+.setting-info-window > i:hover{
+  color: #333;
+}

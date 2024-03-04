@@ -1,0 +1,12 @@
+import './css/animation.css'
+import './css/fontello-codes.css'
+import './css/fontello-embedded.css'
+import './css/fontello-ie7-codes.css'
+import './css/fontello-ie7.css'
+import './css/fontello.css'
+
+import './font/fontello.eot'
+import './font/fontello.svg'
+import './font/fontello.ttf'
+import './font/fontello.woff'
+import './font/fontello.woff2'

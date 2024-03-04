@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/css/plugins/blueimp/img/error.svg
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\css\plugins\blueimp\img\error.svg
+Content Type: image/svg+xml

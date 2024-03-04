@@ -1,0 +1,119 @@
+export function setSchema(
+  cardTypeList, countryList, provinceList, districtList, subdistrictList, countryList_current,
+  provinceList_current, districtList_current, subdistrictList_current, inputTypeChange,
+  driverProfileCards, drivers
+
+
+) {
+  return {
+    properties: {
+      DriverDetail: {
+        type: "object",
+        title: "Driver Information",
+        properties: {
+          basicData: {
+            // type: "object",
+            inputTypeChange: {
+              ...inputTypeChange
+            },
+            driverProfileCards: [...driverProfileCards],
+            drivers: [...drivers],
+            required: ['personalID'],
+            label: {
+              personalID: 'Personal ID',
+              prefix: 'Prefix',
+              firstname: 'First Name',
+              lastname: 'Last Name',
+              personalCard: 'Personal Card',
+              nickname: 'Nickname',
+              lastUpdated: 'Last Updated',
+
+              houseNo: 'House No.',
+              villageNo: 'Village No.',
+              building: 'Building',
+              roomNo: 'Room No.',
+              soi: 'Soi',
+              road: 'Road',
+              villageName: 'Village Name',
+              subDistrict: 'Sub District',
+              district: 'District',
+              province: 'Province',
+              country: 'Country',
+              postalCode: 'Postal Code',
+              phone1: 'Phone1',
+              ext1: 'Ext.',
+              phone2: 'Phone2',
+              ext2: 'Ext.',
+
+              isCurrentSameOfficial: 'Same as official Address',
+              houseNo_current: 'House No.',
+              villageNo_current: 'Village No.',
+              building_current: 'Building',
+              roomNo_current: 'Room No.',
+              soi_current: 'Soi',
+              road_current: 'Road',
+              villageName_current: 'Village Name',
+              subDistrict_current: 'Sub District',
+              district_current: 'District',
+              province_current: 'Province',
+              country_current: 'Country',
+              postalCode_current: 'Postal Code',
+              phone1_current: 'Phone1',
+              ext1_current: 'Ext.',
+              phone2_current: 'Phone2',
+              ext2_current: 'Ext.',
+
+              userName: 'Username',
+              avartar: 'aAartar',
+              mobile: 'Mobile',
+              email: 'Email',
+              lineId: 'LineID',
+
+              employeeCode: 'Employee Code',
+              displayName: 'Display Name',
+              department: 'Department',
+              position: 'Position',
+              startDate: 'Start Date',
+              endDate: 'End Date'
+
+
+              // cardType: 'Card Type',
+              // cardNo: 'Card No.',
+              // expireedDate: 'Expireed Date',
+              // description: 'Description'
+            },
+            list: {
+              country: [
+                ...countryList
+              ],
+              province: [
+                ...provinceList
+              ],
+              district: [
+                ...districtList
+              ],
+              subDistrict: [
+                ...subdistrictList
+              ],
+              country_current: [
+                ...countryList_current
+              ],
+              province_current: [
+                ...provinceList_current
+              ],
+              district_current: [
+                ...districtList_current
+              ],
+              subDistrict_current: [
+                ...subdistrictList_current
+              ],
+              cardType: [
+                ...cardTypeList
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

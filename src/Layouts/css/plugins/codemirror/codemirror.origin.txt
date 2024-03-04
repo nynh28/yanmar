@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/css/plugins/codemirror/codemirror.css
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\css\plugins\codemirror\codemirror.css
+Content Type: text/css

@@ -1,0 +1,58 @@
+.col-left{
+  --heightA: calc(100vh - 55px);
+  height: var(--heightA);
+  background-color: #FFF;
+}
+
+.col-right{
+  --heightA: calc(100vh - 55px);
+  height: var(--heightA);
+  background-color: #FFF;
+  box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px
+}
+
+.row-monitor{
+  --heightA: calc(100vh - 55px);
+  --heightB: calc(var(--heightA) * (4/6));
+  --heightC: calc(var(--heightB) + 5px);
+  height: var(--heightC);
+  background-color: #FFF;
+}
+
+.row-chart{
+  --heightA: calc(100vh - 55px);
+  --heightB: calc(var(--heightA) * (2/6));
+  --heightC: calc(var(--heightB) - 5px);
+  height: var(--heightC);
+  background-color: #FFF;
+}
+
+@media (min-height: 650px) {
+  .row-monitor{
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (5/7));
+    --heightC: calc(var(--heightB) + 5px);
+    height: var(--heightC);
+  }
+
+  .row-chart{
+    --heightA: calc(100vh - 55px);
+    --heightB: calc(var(--heightA) * (2/7));
+    --heightC: calc(var(--heightB) - 5px);
+    height: var(--heightC);
+  }
+
+}
+
+@media (max-width: 992px) {
+  .row-chart{
+    height: 250px;
+  }
+  .col-left{
+    height: auto;
+  }
+  .col-right{
+    height: auto;
+  }
+}
+

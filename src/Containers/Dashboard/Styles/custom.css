@@ -1,0 +1,10 @@
+.panel-hover:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+  }
+
+#ic_history{
+  border:2px solid #999999;
+  background-color:#f0f8ff;
+  padding:10px;
+}

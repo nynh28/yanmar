@@ -1,0 +1,63 @@
+.dx-column-indicators {
+  float: right !important;
+}
+
+.dx-datagrid-action {
+  text-align: left !important;
+}
+.header-column-center {
+  text-align: center !important;
+}
+.header-column-center{
+    text-align:center !important;
+}
+.header-column-center{
+    text-align:center !important;
+}
+
+.dx-datagrid-rowsview .dx-row > td, .dx-datagrid-rowsview .dx-row > tr > td {
+    overflow: visible !important;
+    text-overflow: ellipsis;
+}
+
+.box-column-chooser{
+    left : 50%;
+    position: absolute;
+    box-shadow: rgb(0 0 0 / 30%) 1px 1px 5px 0px;
+    z-index: 9999999999;
+}
+
+.ibox-content-chooser {
+    height: 300px;
+    width: 205px;
+    overflow-y: scroll;
+    mask-image: linear-gradient(to top, transparent, black),
+      linear-gradient(to left, transparent 17px, black 17px);
+    mask-size: 100% 20000px;
+    mask-position: left bottom;
+    -webkit-mask-image: linear-gradient(to top, transparent, black),
+      linear-gradient(to left, transparent 17px, black 17px);
+    -webkit-mask-size: 100% 20000px;
+    -webkit-mask-position: left bottom;
+    transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+}
+
+.box-column-chooser .ant-checkbox-wrapper{
+    margin-bottom: 5px;
+}
+
+.box-column-chooser-title{
+    border-top: 4px solid #ffffff;
+    background-color: #ffffff;
+    /* background-color: #d5d7d6; */
+    color: inherit;
+    margin-bottom: 0;
+    padding: 10px 15px 7px;
+    min-height: 48px;
+}
+
+.dx-datagrid-rowsview .dx-row > td,
+.dx-datagrid-rowsview .dx-row > tr > td {
+  overflow: visible !important;
+  text-overflow: ellipsis;
+}

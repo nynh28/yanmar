@@ -1,0 +1,3 @@
+Uri: http://webapplayers.com/inspinia_admin-v2.2/js/plugins/jqGrid/jquery.jqGrid.min.js
+File Name: D:\tempo\Inspinia\webapplayers.com\inspinia_admin-v2.2\js\plugins\jqGrid\jquery.jqGrid.js
+Content Type: application/javascript

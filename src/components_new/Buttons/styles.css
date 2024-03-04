@@ -1,0 +1,102 @@
+.ant-btn-disabled {
+  color: #00000040 !important;
+  border-color: #d9d9d9 !important;
+  background: #f5f5f5 !important;
+}
+
+.ant-btn-disabled:hover {
+  color: #00000040 !important;
+  border-color: #d9d9d9 !important;
+  background: #f5f5f5 !important;
+}
+
+.ant-btn-danger {
+  background-color: #ed5565 !important;
+  border-color: #ed5565 !important;
+  color: #FFF !important;
+}
+
+.ant-btn-danger:hover {
+  background-color: #ed5565 !important;
+  border-color: #ed5565 !important;
+  color: #FFF !important;
+}
+
+.ant-btn-secondary-outline {
+  background-color: #FFF !important;
+  border-color: #176fc1 !important;
+  color: rgb(23 111 193);
+}
+
+.ant-btn-secondary-outline:hover {
+  background-color: #176fc1 !important;
+  color: #FFF !important;
+}
+
+/* .ant-btn-secondary-outline>span {
+  background-color: #176fc1;
+} */
+
+.ant-btn-danger-cancel {
+  background-color: #FFF !important;
+  border-color: #ed5565 !important;
+  color: #ed5565 !important;
+}
+
+.ant-btn-danger-cancel:hover {
+  background-color: #ed5565 !important;
+  border-color: #ed5565 !important;
+  color: #FFF !important;
+}
+
+.ant-btn-export-excel {
+  background-color: #007540 !important;
+  border-color: #007540 !important;
+  color: #FFF !important;
+}
+
+.ant-btn-export-excel:hover {
+  background-color: #FFF !important;
+  border-color: #007540 !important;
+  color: #007540 !important;
+}
+
+.ant-btn-export-excel-outline {
+  background-color: #FFF !important;
+  border-color: #007540 !important;
+  color: #007540 !important;
+}
+
+.ant-btn-export-excel-outline:hover {
+  background-color: #007540 !important;
+  border-color: #007540 !important;
+  color: #FFF !important;
+}
+
+.ant-btn-export-excel-outline:hover  > .ic-export-excel{
+  content: url('./icon-excel-white.png') !important;
+}
+
+.ant-btn-primary-outline {
+  background-color: #FFF !important;
+  border-color: rgb(23, 111, 193) !important;
+  color: rgb(23, 111, 193) !important;
+}
+
+.ant-btn-primary-outline:hover {
+  background-color: rgb(23, 111, 193) !important;
+  border-color: rgb(23, 111, 193) !important;
+  color: #FFF !important;
+}
+
+.ant-btn-print-outline {
+  background-color: #FFF !important;
+  border-color: rgb(237 85 101) !important;
+  color: rgb(237 85 101) !important;
+}
+
+.ant-btn-print-outline:hover {
+  background-color: rgb(237 85 101) !important;
+  border-color: rgb(237 85 101) !important;
+  color: #FFF !important;
+}

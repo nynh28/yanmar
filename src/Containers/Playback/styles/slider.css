@@ -1,0 +1,25 @@
+#slider_test .ant-slider .ant-slider-track {
+    position: absolute;
+    height: 4px;
+    background-color: #ff0000 !important;
+    border-radius: 2px;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+#slider_test .ant-slider .ant-slider-handle {
+    position: absolute;
+    width: 10px!important;
+    height: 10px!important;
+    margin-top: -3px!important;
+    background-color: #f00!important;
+    border: solid 2px #ff0000!important;
+    border-radius: 30%;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    cursor: pointer;
+    -webkit-transition: border-color 0.3s, -webkit-box-shadow 0.6s, -webkit-transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: border-color 0.3s, -webkit-box-shadow 0.6s, -webkit-transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: border-color 0.3s, box-shadow 0.6s, transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: border-color 0.3s, box-shadow 0.6s, transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28), -webkit-box-shadow 0.6s, -webkit-transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}

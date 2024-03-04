@@ -1,0 +1,43 @@
+{
+  "GeofenceDetail":{
+    "geofenceData":{
+        "partnerType":null,
+        "partnerName":null,
+        "partnerName_value":null,
+        "name":null,
+        "description":null,
+        "nameEn":null,
+        "descriptionEn":null,
+        "nameJa":null,
+        "descriptionJa":null,
+        "geofenceTypeNav":null,
+        "geofenceTypeNav_value":null,
+        "sourceTypeNav":null,
+        "isShare":true,
+        "isHazard":false,
+        "isActive":true,
+        "geomTypeNav":null,
+        "coordinates":[
+
+        ],
+        "iconPoint":null,
+        "radius":0,
+        "iconAttachId":null,
+        "iconUrl":null,
+        "iconSource":1,
+        "attachCode":null,
+        "attachInfo":{
+           "fileName":null,
+           "attachCode":null,
+           "fileUrl":null
+        },
+        "filesResponse":null,
+        "mode":null,
+        "chooseAttachIcon":{
+           "name":null,
+           "attachCode":null,
+           "attachUrl":null
+        }
+     }
+  }
+}

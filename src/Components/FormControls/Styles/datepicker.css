@@ -1,0 +1,29 @@
+.icon-calendar .fas.fa-times-circle{
+  position: absolute;
+  color: rgb(192, 192, 189);
+  margin: 10px;
+  right: 25px;
+  top: 17px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+.icon-calendar .fas.fa-times-circle:hover{
+  color: rgb(135, 136, 135);
+}
+
+.icon-calendar .far.fa-calendar-alt,.icon-calendar  .anticon.anticon-calendar{
+  position: absolute;
+  color: rgb(192, 192, 189);
+  margin: 10px;
+  right: 25px;
+  top: 14px;
+}
+
+.icon-calendar-ranges > .far.fa-calendar-alt,.icon-calendar-ranges > .anticon.anticon-calendar{
+  position: absolute;
+  color: rgb(192, 192, 189);
+  margin: 10px;
+  right: 25px;
+  /* top: 14px; */
+}

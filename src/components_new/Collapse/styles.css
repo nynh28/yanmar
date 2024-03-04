@@ -1,0 +1,8 @@
+.ant-collapse {
+  border-radius: 6px !important;
+  margin-top: 7px;
+}
+
+.custom-collaps > .ant-collapse-item > .ant-collapse-content >.ant-collapse-content-box {
+  padding-bottom: 0px !important;
+}

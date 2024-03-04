@@ -1,0 +1,103 @@
+.yellow-bar{
+    background-color: #fcba03;
+  }
+
+  .yellow-bar{
+    color: white;
+    margin: 0em 0em 0em 0em;
+    padding: 0.5em 2em 0.5em 0.5em;
+    text-align: right;
+    /* font-size: */
+  }
+
+  .bar-text{
+    color: white;
+    margin: 0em 0em 0em 0em;
+    padding: 0.5em 1em 0.5em 0.5em;
+    text-align: right;
+    font-size: 1.3em
+}
+  .car-bar{
+    float: left;
+    padding-top: 1.5em;
+    width:60px
+  }
+
+  .pin{
+    float: left;
+    height:'auto';
+    width:'auto';
+  }
+
+
+  .address-andtime{
+    margin: auto;
+    float: left;
+  }
+
+  .address-text{
+    margin: 0em 0em 0.5em 0em;
+    font-size: smaller;
+    font-weight: 200;
+    padding-left: 1em;
+  }
+
+  .time-text{
+    margin: 0em 0em 0.5em 0em;
+    font-size: smaller;
+    font-weight: 200;
+    padding-left: 3em;
+  }
+
+  .price-text{
+    font-size: medium;
+    text-align: right;
+    font-weight: 500;
+    color: #fcba03;
+  }
+
+  .clock{
+    float: left;
+    width:20px;
+    padding-left: 0.75em;
+    opacity: 50%;
+  }
+
+  .right-bar{
+    align-items: right;
+    /* padding-right: 2em; */
+    float: right;
+  }
+
+  .shipper-list{
+    margin-bottom: 1em;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .cargolink-button{
+    background-color: #4CAF50;
+    border: none;
+    padding: 4px 12px;
+    color: white;
+    text-align: center;
+    float: right;
+  }
+
+  .no-bullet-list{
+    list-style-type:none;
+  }
+
+  .details-link{
+    color: grey;
+  }
+
+  .float-comp{
+    position: absolute;
+    /* width:55% */
+  }
+  .float-comp2{
+    width:45%;
+    height: "calc(100vh - 138px)";
+    /* float:right */
+  }

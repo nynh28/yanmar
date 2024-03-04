@@ -1,0 +1,108 @@
+
+.border{
+border: 5px solid black;
+
+}
+  .speedhistogram{
+    position: absolute;
+    top:100px;
+    left: 100px;
+}
+  .besttest{
+    position: absolute;
+    left: 20px;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.RPMhistogram {
+  position: absolute;
+  top:  100px;
+  left: 100px;
+
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.button-radio, .button-radio:hover:disabled{
+  color: white;
+  background-color: rgb(167, 167, 167);
+}
+.active, .active:hover:disabled, .button-radio:hover, .button-radio:focus{
+  color: white;
+  background-color: lightseagreen;
+}
+div.DLTreportdash {
+  align-self: center;
+  width: 100%;
+  text-align: center;
+
+}
+.divTable.DLTreportdash .divTableCell, .divTable.DLTreportdash .divTableHead {
+  border: 1px solid #e7eaec;
+  padding: 5px 5px;
+
+}
+.divTable.DLTreportdash .divTableBody .divTableCell {
+  color: #c90000;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+
+.divTable.DLTreportdash .divTableHeading {
+
+}
+.divTable.DLTreportdash .divTableHeading .divTableHead {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin: 15px;
+}
+
+div.HSCreportdash {
+  align-self: center;
+  width: 100%;
+  text-align: center;
+
+}
+.divTable.HSCreportdash .divTableCell, .divTable.HSCreportdash .divTableHead {
+  padding: 5px 5px;
+  border: 1px solid #e7eaec;
+}
+.divTable.HSCreportdash .divTableBody .divTableCell {
+  color: #c90000;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 15px;
+}
+.divTable.HSCreportdash .divTableHeading {
+  }
+.divTable.HSCreportdash .divTableHeading .divTableHead {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin: 15px;
+}
+.HSCreportdash .tableFootStyle {
+  font-size: 14px;
+}
